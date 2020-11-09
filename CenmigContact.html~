@@ -26,7 +26,7 @@
         <div id="main_nav" class="row-menu">
             <div class="menu_box_top">
                 <div class="col-md-3 col-sm-4 col-xs-12">
-                    <div class="logo-head"> <a href=""> <img class="" src="./pic/logo/CENMIGlogo.png"> </a> </div>
+                    <div class="logo-head"> <a href=""> <img class="" src="./pic/Logo/CENMIGlogo.png"> </a> </div>
                 </div>
                 <div class="col-md-9 div-lang-search col-sm-8 col-xs-12" style="padding-right: 40px;">
                 </div>
@@ -36,7 +36,7 @@
             <div class="container menu-con animated test-gg fadeInDown test-gg" style="height: 516px;">
                 <div class="menu_links">
                     <ul>
-                        <li><span class="hassubmenu toplevel uppercase"><a href="./CenmigHomePage.html">Home</a></span></li>
+                        <li><span class="hassubmenu toplevel uppercase"><a href="./index.html">Home</a></span></li>
                         <li><span class="hassubmenu toplevel uppercase"><a href="./CenmigAboutUs.html">About us</a></span></li>
                         <li><span class="hassubmenu toplevel uppercase"><a href="./CenmigResearchAreas.html">Research Areas</a></span></li>
                         <li><span class="hassubmenu toplevel uppercase"><a href="./CenmigNews.html">News</a></span></li>
