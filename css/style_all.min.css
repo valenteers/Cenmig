@@ -26730,14 +26730,14 @@ button[type="submit"] {
 }
 
 .menu-con {
-    display: none;
-    width: 22%;
+    display: block;
+    width: 330px;
     position: absolute;
     top: 62px;
     z-index: 10;
     background: #253a4eb5;
     left: 3%;
-    min-height: 250px;
+    min-height: 220px;
 }
 
 .tagle-menu.open .menu-con {
