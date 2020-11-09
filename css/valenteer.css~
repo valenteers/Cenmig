@@ -1,0 +1,64 @@
+ 			.vrSlides {
+            display: none;
+        }
+
+        .vrImg {
+            vertical-align: middle;
+        }
+
+        /* Slideshow container */
+        .vrSlideshow-container {
+            position: relative;
+            margin: auto;
+        }
+
+        /* The dots/bullets/indicators */
+        .vrSildeDot {
+            height: 15px;
+            width: 15px;
+            margin: 0 2px;
+            background-color: #bbb;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 1s ease;
+        }
+         /* Style the counter cards */
+        .vrcard {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            padding: 10px;
+            text-align: center;
+            background-color: #f1f1f1;
+        }
+
+        .vrActive {
+            background-color: #717171;
+        }
+
+        /* Fading animation */
+        .vrFade {
+            -webkit-animation-name: fade;
+            -webkit-animation-duration: 3s;
+            animation-name: fade;
+            animation-duration: 3s;
+        }
+         /* Float four columns side by side */
+        .vrcolumn {
+            float: left;
+            width: 25%;
+            padding: 0 10px;
+        }
+
+        /* Remove extra left and right margins, due to padding */
+        .vrrow {
+            margin: 0 -5px;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+
+        /* Clear floats after the columns */
+        .vrrow:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
