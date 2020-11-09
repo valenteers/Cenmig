@@ -82,8 +82,9 @@
         <div class="wrapper_this">
             <div class="container">
                 <div class="row">
-                	  <div  class="col-md-6" style="margin-top: 7%;">
-                        <div class="owl-carousel owl-theme owl-about-banner owl-loaded owl-drag" id="owl-demo">
+                	  <div  class="col-md-6" style="margin-top: 6%;">
+                	  		<div><img class="" src="./pic/Team/teamCENMIG.jpg" style="width: 100%;margin-top: 3%;"> </div>
+                        <!--<div class="owl-carousel owl-theme owl-about-banner owl-loaded owl-drag" id="owl-demo">
                             <div class="owl-stage-outer" style="margin-top: 3%">
                                 <div class="owl-stage" style="transform: translate3d(-1665px, 0px, 0px); transition: all 1s ease 0s; width: 3330px;">
                                     <div class="owl-item cloned" style="width: 555px;">
@@ -100,9 +101,9 @@
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
-                    <div class="col-md-6" style="margin-top: 7%;">
+                    <div class="col-md-6" style="margin-top: 6%;">
                         <h3> <b> CENMIG – Pornchai Matangkasombut Center for Microbial Genomics </b></h3>
                         <p>&emsp;&emsp;&emsp;With the rapid advancement of sequencing technology, 
 										<b>whole genome sequencing (WGS)</b> is now becoming a standard laboratory technique in microbiology. 
@@ -132,7 +133,7 @@
                     <div class="row">
                         <div class="col-md-3">
                             <span style="overflow-wrap: break-word;">
-                            <img class="setup" src="./pic/Team/Pornchai1.jpg" height="350" alt="">
+                            <img class="setup" src="./pic/Team/Pornchai1.jpg" style="height: 20%; margin-top: 8%" alt="">
                             </span> 
                         </div>
                         <div class="col-md-9">
@@ -148,7 +149,7 @@
                         </div>
                     </div>
                     <div class="row">
-                    			<div class="col-md-11">
+                    			<div class="col-md-12">
                             <p>
 		                            &emsp;&emsp;&emsp;Emeritus Professor Pornchai Matangkasombut was one of the pioneers who laid a solid foundation for the graduate studies 
 											and research in microbiology in the Faculty of Science, Mahidol University and has influenced research and education through 

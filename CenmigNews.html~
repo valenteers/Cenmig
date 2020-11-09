@@ -21,14 +21,16 @@
     <link rel="stylesheet" href="./css/w3schools.css">
     <style type="text/css">
     		 /* Responsive columns */
-        @media screen and (max-width: 1000px) {
+        @media screen and (max-width: 1200px) {
             .vrNews {
                 width: 50%;
+                display: block;
             }
         }
-			@media screen and (max-width: 500px) {
+			@media screen and (max-width: 780px) {
             .vrNews {
                 width: 100%;
+                 display: block;
             }
         }
         .fancybox-margin {
@@ -52,7 +54,7 @@
             <div class="container menu-con animated test-gg fadeInDown test-gg" style="height: 516px;">
                 <div class="menu_links">
                     <ul>
-                        <li><span class="hassubmenu toplevel uppercase"><a href="./CenmigHomePage.html">Home</a></span></li>
+                        <li><span class="hassubmenu toplevel uppercase"><a href="./index.html">Home</a></span></li>
                         <li><span class="hassubmenu toplevel uppercase"><a href="./CenmigAboutUs.html">About us</a></span></li>
                         <li><span class="hassubmenu toplevel uppercase"><a href="./CenmigResearchAreas.html">Research Areas</a></span></li>
                         <li class="current_menu_parent"><span class="hassubmenu toplevel uppercase"><a href="./CenmigNews.html">News</a></span></li>
@@ -79,10 +81,10 @@
                 		</div>
                 		<div class="big_title_blogs col-md-12" style="position:relative;">
                     	</div>
-                    <div class="container" style="width: 80%; margin-top: 75px;">
+                    <div class="container" style="width: 90%; margin-top: 75px;">
                         <div class="row" style="margin-bottom: 25px;">
-                            <div class="col-md-3 col-sm-3 col-xs-12" >
-                                <div class="hovereffect-blog"> <a href=" "> <img src="./pic/Logo/CENMIGonHomepage.png" class="img-blog-page"> </a>
+                            <div class="col-md-3 col-sm-3 col-xs-12 vrNews" >
+                                <div class="hovereffect-blog"> <a href=" "> <img src="./pic/Logo/CENMIGonHomepage.png" class="img-blog-page" style="height: 100%;"> </a>
                                     <div class="overlay-ser"> <a class="info" href=" ">Read More &gt;</a> </div>
                                     <div class="btext-info">
                                         <div class="btitle"> <a href=" ">
@@ -92,8 +94,8 @@
                                     </div>
                                 </div>
                             </div>
-                             <div class="col-md-3 col-sm-3 col-xs-12" >
-                                <div class="hovereffect-blog"> <a href=" "> <img src="./pic/Logo/CENMIGonHomepage.png" class="img-blog-page"> </a>
+                             <div class="col-md-3 col-sm-3 col-xs-12 vrNews" >
+                                <div class="hovereffect-blog"> <a href=" "> <img src="./pic/Logo/CENMIGonHomepage.png" class="img-blog-page" style="height: 100%;"> </a>
                                     <div class="overlay-ser"> <a class="info" href=" ">Read More &gt;</a> </div>
                                     <div class="btext-info">
                                         <div class="btitle"> <a href=" ">
@@ -103,8 +105,8 @@
                                     </div>
                                 </div>
                             </div>
-                             <div class="col-md-3 col-sm-3 col-xs-12" >
-                                <div class="hovereffect-blog"> <a href=" "> <img src="./pic/Logo/CENMIGonHomepage.png" class="img-blog-page"> </a>
+                             <div class="col-md-3 col-sm-3 col-xs-12 vrNews" >
+                                <div class="hovereffect-blog"> <a href=" "> <img src="./pic/Logo/CENMIGonHomepage.png" class="img-blog-page" style="height: 100%;"> </a>
                                     <div class="overlay-ser"> <a class="info" href=" ">Read More &gt;</a> </div>
                                     <div class="btext-info">
                                         <div class="btitle"> <a href=" ">
@@ -114,8 +116,8 @@
                                     </div>
                                 </div>
                             </div>
-                             <div class="col-md-3 col-sm-3 col-xs-12" >
-                                <div class="hovereffect-blog"> <a href=" "> <img src="./pic/Logo/CENMIGonHomepage.png" class="img-blog-page"> </a>
+                             <div class="col-md-3 col-sm-3 col-xs-12 vrNews" >
+                                <div class="hovereffect-blog"> <a href=" "> <img src="./pic/Logo/CENMIGonHomepage.png" class="img-blog-page" style="height: 100%;"> </a>
                                     <div class="overlay-ser"> <a class="info" href=" ">Read More &gt;</a> </div>
                                     <div class="btext-info">
                                         <div class="btitle"> <a href=" ">

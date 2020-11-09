@@ -36,6 +36,12 @@
             width: 16%;
             padding: 0 4px;
         }
+        .vrpadAj{
+        		height:50px ;
+        }
+        .vrpadP{
+        		height:55px ;
+        }
 
         /* Remove extra left and right margins, due to padding */
         .vrrow {
@@ -51,18 +57,40 @@
 
         /* Responsive columns */
         @media screen and (max-width: 1000px) {
+        		.vrcolumnF {
+            	width: 33%;
+                display: block;
+                margin-bottom: 2%;
+        }
+            .vrcolumn {
+                width: 33%;
+                display: block;
+                margin-bottom: 2%;
+            }
+            /*.vrpadAj{
+        		height:360px ;
+        }
+        		.vrpadP{
+        		height:390px ;
+        }*/
+        }
+			@media screen and (max-width: 500px) {
+				.vrcolumnF {
+            	width: 50%;
+                display: block;
+                margin-bottom: 2%;
+        }
             .vrcolumn {
                 width: 50%;
                 display: block;
                 margin-bottom: 2%;
             }
+            /*.vrpadAj{
+        		height:360px ;
         }
-			@media screen and (max-width: 500px) {
-            .vrcolumn {
-                width: 100%;
-                display: block;
-                margin-bottom: 2%;
-            }
+        		.vrpadP{
+        		height:380px ;
+        }*/
         }
         /* Style the counter cards */
         .vrcard {
@@ -93,7 +121,7 @@
             <div class="container menu-con animated test-gg fadeInDown test-gg" style="height: 516px;">
                 <div class="menu_links">
                     <ul>
-                        <li><span class="hassubmenu toplevel uppercase"><a href="./CenmigHomePage.html">Home</a></span></li>
+                        <li><span class="hassubmenu toplevel uppercase"><a href="./index.html">Home</a></span></li>
                         <li><span class="hassubmenu toplevel uppercase"><a href="./CenmigAboutUs.html">About us</a></span></li>
                         <li><span class="hassubmenu toplevel uppercase"><a href="./CenmigResearchAreas.html">Research Areas</a></span></li>
                         <li><span class="hassubmenu toplevel uppercase"><a href="./CenmigNews.html">News</a></span></li>
@@ -129,88 +157,88 @@
 											<p>&nbsp</p>		                    			
                     			</div>
 						        <div class="vrcolumnF col-md-2 ">
-						            <div class="vrcard" >
-						                <div class="w3-container  w3-center"  ><img src="./pic/FoundingMembers/Prasit Palittapongarnpim.png" alt="Alps" style="width:100%; background-color: white;margin-top:5%;">
+						            <div class="vrcard " >
+						                <div class="w3-container  w3-center"  ><img src="./pic/FoundingMembers/Prasit Palittapongarnpim.png" alt="Alps" style="width:100%; background-color: white;margin-top:5%; ">
 						            		<div>
-						                <p class="vrfontsize" style="margin-top: 8%; text-align: center;" >Professor Prasit Palittapongarnpim, M.D.<br>&nbsp</p>
+						                <p class="vrfontsize vrpadAj" style="margin-top: 8%; text-align: center;" >Professor Prasit Palittapongarnpim, M.D.</p>
 						            		</div>
 						        			 </div>
 						         		</div>
 						        	</div>
 						        	<div class="vrcolumnF col-md-2 ">
-						            <div class="vrcard">
+						            <div class="vrcard ">
 						                <div class="w3-container  w3-center" ><img src="./pic/FoundingMembers/Padungsri Dubbs.png" alt="Alps" style="width:100%; background-color: white;margin-top:5%;">
 						            		<div>
-						                <p class="vrfontsize" style="margin-top: 8%; text-align: center;" >Assist. Professor Padungsri Dubbs Ph.D.<br>&nbsp</p>
+						                <p class="vrfontsize vrpadAj" style="margin-top: 8%; text-align: center;" >Assist. Professor Padungsri Dubbs Ph.D.</p>
 						            		</div>
 						        			 </div>
 						         		</div>
 						        	</div>
 						        	<div class="vrcolumnF col-md-2 ">
-						            <div class="vrcard">
+						            <div class="vrcard ">
 						                <div class="w3-container  w3-center" ><img src="./pic/FoundingMembers/Arunee Thitithanyanont.jpg" alt="Alps" style="width:100%; background-color: white;margin-top:5%;">
 						            		<div>
-						                <p class="vrfontsize" style="margin-top: 8%; text-align: center;" >Assoc. Professor Arunee Thitithanyanont, M.D. <br>&nbsp</p>
+						                <p class="vrfontsize vrpadAj" style="margin-top: 8%; text-align: center;" >Assoc. Professor Arunee Thitithanyanont, M.D. </p>
 						            		</div>
 						        			 </div>
 						         		</div>
 						        	</div>
 						        	<div class="vrcolumnF col-md-2 ">
-						            <div class="vrcard">
+						            <div class="vrcard ">
 						                <div class="w3-container  w3-center" ><img src="./pic/FoundingMembers/Marisa Ponpuak.png" alt="Alps" style="width:100%; background-color: white;margin-top:5%;">
 						            		<div>
-						                <p class="vrfontsize" style="margin-top: 8%; text-align: center;" >Assoc. Professor Marisa Ponpuak, Ph.D. <br>&nbsp</p>
+						                <p class="vrfontsize vrpadAj" style="margin-top: 8%; text-align: center;" >Assoc. Professor Marisa Ponpuak, Ph.D. </p>
 						            		</div>
 						        			 </div>
 						         		</div>
 						        	</div>
 						        	<div class="vrcolumnF col-md-2 ">
-						            <div class="vrcard">
+						            <div class="vrcard ">
 						                <div class="w3-container  w3-center" ><img src="./pic/FoundingMembers/Ponpan Matangkasombut-Choopong.jpg" alt="Alps" style="width:100%; background-color: white;margin-top:5%;">
 						            		<div>
-						                <p class="vrfontsize" style="margin-top: 8%; text-align: center;" >Assoc. Professor Ponpan Matangkasombut-Choopong, M.D. Ph.D.&nbsp</p>
+						                <p class="vrfontsize vrpadAj" style="margin-top: 8%; text-align: center;" >Assoc. Professor Ponpan Matangkasombut-Choopong, M.D. Ph.D.</p>
 						            		</div>
 						        			 </div>
 						         		</div>
 						        	</div>
 						        	<div class="vrcolumnF col-md-2 ">
-						            <div class="vrcard">
+						            <div class="vrcard ">
 						                <div class="w3-container  w3-center" ><img src="./pic/FoundingMembers/Soraya Chaturongakul.png" alt="Alps" style="width:100%; background-color: white;margin-top:5%;">
 						            		<div>
-						                <p class="vrfontsize" style="margin-top: 8%; text-align: center;" >Assoc. Professor Soraya Chaturongakul, Ph.D. <br>&nbsp</p>
+						                <p class="vrfontsize vrpadAj" style="margin-top: 8%; text-align: center;" >Assoc. Professor Soraya Chaturongakul, Ph.D. </p>
 						            		</div>
 						        			 </div>
 						         		</div>
 						        	</div>
 						        	<div class="vrcolumnF col-md-2 ">
-						            <div class="vrcard">
+						            <div class="vrcard ">
 						                <div class="w3-container  w3-center" ><img src="./pic/FoundingMembers/Pakorn Aiewsakun.png" alt="Alps" style="width:100%; background-color: white;margin-top:5%;">
 						            		<div>
-						                <p class="vrfontsize" style="margin-top: 8%; text-align: center;" >Dr. Pakorn Aiewsakun, Ph.D. <br><br>&nbsp</p>
+						                <p class="vrfontsize vrpadAj" style="margin-top: 8%; text-align: center;" >Dr. Pakorn Aiewsakun, Ph.D. </p>
 						            		</div>
 						        			 </div>
 						         		</div>
 						        	</div><div class="vrcolumnF col-md-2 ">
-						            <div class="vrcard">
+						            <div class="vrcard ">
 						                <div class="w3-container  w3-center" ><img src="./pic/FoundingMembers/Pornpen Tantivitayaku.png" alt="Alps" style="width:100%; background-color: white;margin-top:5%;">
 						            		<div>
-						                <p class="vrfontsize" style="margin-top: 8%; text-align: center;" >Assist. Professor Pornpen Tantivitayakul, M.D. Ph.D.  <br>&nbsp</p>
+						                <p class="vrfontsize vrpadAj" style="margin-top: 8%; text-align: center;" >Assist. Professor Pornpen Tantivitayakul, M.D. Ph.D.  </p>
 						            		</div>
 						        			 </div>
 						         		</div>
 						        	</div><div class="vrcolumnF col-md-2 ">
-						            <div class="vrcard">
+						            <div class="vrcard ">
 						                <div class="w3-container  w3-center" ><img src="./pic/FoundingMembers/Sirirak Supa-Amornkul.png" alt="Alps" style="width:100%; background-color: white;margin-top:5%;">
 						            		<div>
-						                <p class="vrfontsize" style="margin-top: 8%; text-align: center;" >Dr. Sirirak Supa-Amornkul, Ph.D.  <br><br>&nbsp</p>
+						                <p class="vrfontsize vrpadAj" style="margin-top: 8%; text-align: center;" >Dr. Sirirak Supa-Amornkul, Ph.D.  </p>
 						            		</div>
 						        			 </div>
 						         		</div>
 						        	</div><div class="vrcolumnF col-md-2 ">
-						            <div class="vrcard">
+						            <div class="vrcard ">
 						                <div class="w3-container  w3-center" ><img src="./pic/FoundingMembers/Supada Plitphonganphim.png" alt="Alps" style="width:100%; background-color: white;margin-top:5%;">
 						            		<div>
-						                <p class="vrfontsize" style="margin-top: 8%; text-align: center;" >Dr. Supada Plitphonganphim, Ph.D.  <br><br>&nbsp</p>
+						                <p class="vrfontsize vrpadAj" style="margin-top: 8%; text-align: center;" >Dr. Supada Plitphonganphim, Ph.D. </p>
 						            		</div>
 						        			 </div>
 						         		</div>
@@ -226,60 +254,60 @@
 											<p>&nbsp</p>		                    			
                     			</div>
 						        <div class="vrcolumn col-md-2 ">
-						            <div class="vrcard" >
+						            <div class="vrcard " >
 						                <div class="w3-container  w3-center"  ><img src="./pic/Team/big.jpg" alt="Alps" style="width:100%; background-color: white;margin-top:5%;">
 						            		<div>
-						                <p class="vrfontsize" style="margin-top: 8%; text-align: center;" >Wuthiwat Ruangchai <br>
+						                <p class="vrfontsize vrpadP" style="margin-top: 8%; text-align: center;" >Wuthiwat Ruangchai <br>
 						                <span style="color:olive;"> Position: </span>  Molecular Sequences Analysis</p>
 						            		</div>
 						        			 </div>
 						         		</div>
 						        	</div>
 						        	<div class="vrcolumn col-md-2 ">
-						            <div class="vrcard">
+						            <div class="vrcard ">
 						                <div class="w3-container  w3-center" ><img src="./pic/Team/Kan.jpg" alt="Alps" style="width:100%; background-color: white;margin-top:5%;">
 						            		<div>
-						                <p class="vrfontsize" style="margin-top: 8%; text-align: center;" >Chaivut Tontiworachai <br>
-						                <span style="color:olive;"> Position: </span>  Programming, Web Administrator </p>
+						                <p class="vrfontsize vrpadP" style="margin-top: 8%; text-align: center;" >Chaivut Tontiworachai <br>
+						                <span style="color:olive;"> Position: </span>  Programming </p>
 						            		</div>
 						        			 </div>
 						         		</div>
 						        	</div>
 						        	<div class="vrcolumn col-md-2 ">
-						            <div class="vrcard">
+						            <div class="vrcard ">
 						                <div class="w3-container  w3-center" ><img src="./pic/Team/plu.jpg" alt="Alps" style="width:100%; background-color: white;margin-top:5%;">
 						            		<div>
-						                <p class="vrfontsize" style="margin-top: 8%; text-align: center;" >Thavin Bodharamik <br>
+						                <p class="vrfontsize vrpadP" style="margin-top: 8%; text-align: center;" >Thavin Bodharamik <br>
 						                <span style="color:olive;"> Position: </span>  Molecular Sequences Analysis</p>
 						            		</div>
 						        			 </div>
 						         		</div>
 						        	</div>
 						        	<div class="vrcolumn col-md-2 ">
-						            <div class="vrcard">
+						            <div class="vrcard ">
 						                <div class="w3-container  w3-center" ><img src="./pic/Team/ja.jpg" alt="Alps" style="width:100%; background-color: white;margin-top:5%;">
 						            		<div>
-						                <p class="vrfontsize" style="margin-top: 8%; text-align: center;" >Patrawee Nilplub <br>
+						                <p class="vrfontsize vrpadP" style="margin-top: 8%; text-align: center;padding-bottom:1%" >Patrawee Nilplub <br>
 						                <span style="color:olive; "> Position: </span> Molecular Sequences Analysis</p>
 						            		</div>
 						        			 </div>
 						         		</div>
 						        	</div>
 						        	<div class="vrcolumn col-md-2 ">
-						            <div class="vrcard">
+						            <div class="vrcard ">
 						                <div class="w3-container  w3-center" ><img src="./pic/Team/jui.jpg" alt="Alps" style="width:100%; background-color: white;margin-top:5%;">
 						            		<div>
-						                <p class="vrfontsize" style="margin-top: 8%; text-align: center;" >Nonthachai Yodsuban <br>
+						                <p class="vrfontsize vrpadP" style="margin-top: 8%; text-align: center;" >Nonthachai Yodsuban <br>
 						                <span style="color:olive;"> Position: </span>  Database Administrator</p>
 						            		</div>
 						        			 </div>
 						         		</div>
 						        	</div>
 						        	<div class="vrcolumn col-md-2 ">
-						            <div class="vrcard">
+						            <div class="vrcard ">
 						                <div class="w3-container  w3-center" ><img src="./pic/Team/big.jpg" alt="Alps" style="width:100%; background-color: white;margin-top:5%;">
 						            		<div>
-						                <p class="vrfontsize" style="margin-top: 8%; text-align: center;" >Wuthiwat Ruangchai <br>
+						                <p class="vrfontsize vrpadP" style="margin-top: 8%; text-align: center;" >Wuthiwat Ruangchai <br>
 						                <span style="color:olive;"> Position: </span>  Molecular Sequences Analysis</p>
 						            		</div>
 						        			 </div>
