@@ -54,7 +54,7 @@
         <div id="main_nav" class="row-menu">
             <div class="menu_box_top">
                 <div class="col-md-3 col-sm-4 col-xs-12">
-                   <div class="logo-head"> <a href=""> <img class="" src="./pic/logo/CENMIGlogo.png"> </a> </div>
+                   <div class="logo-head"> <a href=""> <img class="" src="./pic/Logo/CENMIGlogo.png"> </a> </div>
                 </div>
                 <div class="col-md-9 div-lang-search col-sm-8 col-xs-12" style="padding-right: 40px;">
                 </div>
@@ -130,13 +130,12 @@
             <div class="text-ab-page">
                 <div class="container">
                     <div class="row">
-                    <div class="col-md-1"></div>
                         <div class="col-md-3">
                             <span style="overflow-wrap: break-word;">
                             <img class="setup" src="./pic/Team/Pornchai1.jpg" height="350" alt="">
                             </span> 
                         </div>
-                        <div class="col-md-7">
+                        <div class="col-md-9">
                             <h2 class="title-ab">Emeritus Professor Pornchai Matangkasombut</h2> <p>
 		                            &emsp;&emsp;&emsp;Emeritus Professor Pornchai Matangkasombut holds Bachelor of Arts, Doctor of Medicine and PhD in Microbiology (M.D.-Ph.D.) 
 											degrees from the University of Wisconsin and had served as an instructor at the Department of Microbiology, Faculty of Science, 
@@ -149,7 +148,6 @@
                         </div>
                     </div>
                     <div class="row">
-                    <div class="col-md-1"></div>
                     			<div class="col-md-11">
                             <p>
 		                            &emsp;&emsp;&emsp;Emeritus Professor Pornchai Matangkasombut was one of the pioneers who laid a solid foundation for the graduate studies 
