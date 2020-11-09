@@ -27240,17 +27240,17 @@ button[type="submit"] {
     }
 }
 
-@media screen and (min-width: 768px) and (max-width: 922px) {
+@media screen and (min-width: 400px) and (max-width: 922px) {
     .tagle-menu .opt-menu {
-        display: none !important;
+        display: block !important;
     }
 
     .menu-con {
-        display: none !important;
+        display: block !important;
     }
 
     .test-gg {
-        display: none;
+        display: block;
     }
 
     .div-rent5 {
@@ -27259,7 +27259,8 @@ button[type="submit"] {
 
     #sticky,
     .menu_links {
-        display: none;
+        display: block;
+        font-size: 10px !important;
     }
 
     .logo-head {
