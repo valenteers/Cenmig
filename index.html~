@@ -34,10 +34,10 @@
                 margin-bottom: 20px;
             }
             .vrfontH4 {
-            	font-size: 60px;
+            	font-size: 120px;
             }
-            .vrfontH4 {
-            	font-size: 60px;
+            .vrfontP {
+            	font-size: 40px;
             }
         }
 
@@ -49,6 +49,9 @@
             }
             .vrfontH4{
             	font-size: 60px;
+            }
+            .vrfontP {
+            	font-size: 30px;
             }
         }
     </style>
@@ -75,7 +78,7 @@
             <div class="container menu-con animated test-gg fadeInDown test-gg" style="height: 516px;">
                 <div class="menu_links">
                     <ul>
-                        <li class="current_menu_parent"><span class="hassubmenu toplevel uppercase"><a href="./CenmigHomePage.html">Home</a></span></li>
+                        <li class="current_menu_parent"><span class="hassubmenu toplevel uppercase"><a href="./index.html">Home</a></span></li>
                         <li><span class="hassubmenu toplevel uppercase"><a href="./CenmigAboutUs.html">About us</a></span></li>
                         <li><span class="hassubmenu toplevel uppercase"><a href="./CenmigResearchAreas.html">Research Areas</a></span></li>
                         <li><span class="hassubmenu toplevel uppercase"><a href="./CenmigNews.html">News</a></span></li>
@@ -98,7 +101,7 @@
                         <img src="./pic/Background/2G.jpg" style="width:100%" class="vrimg img-banner-all">
                         <div class="container title-banner-all" style="position: absolute;bottom: 0;color: #fff; left: 25%; text-align: left; top: 20%; width:60%;">
                             <h4 class="title-banner-all vrfontH4" style="color: #fff;font-weight: bold; letter-spacing: 3px !important;font-family:Geneva;">MISSION AND GOALS</h4>
-                            <p><span class="text-banner-allpage" style="font-size:33px; display: block;margin-top: 0%;font-family:Geneva;"><br><b>&emsp;&emsp;&emsp;An excellent research and training center for interpretation of genomics information for disease controls and treatment..</b></span></p>
+                            <p><span class="text-banner-allpage vrfontP" style="font-size:33px; display: block;margin-top: 0%;font-family:Geneva;"><br><b>&emsp;&emsp;&emsp;An excellent research and training center for interpretation of genomics information for disease controls and treatment..</b></span></p>
                         </div>
                     </div>
 
@@ -106,7 +109,7 @@
                         <img src="./pic/Background/3G.jpg" style="width:100%" class="vrimg img-banner-all">
                         <div class="container title-banner-all" style="position: absolute;bottom: 0;color: #fff; left: 28%; text-align: left; top: 30%; width:60%; ">
                             <h4 class="title-banner-all vrfontH4" style="color: #fff;font-weight: bold; letter-spacing: 3px !important; font-family:Geneva;">VISION</h4>
-                            <p><span class="text-banner-allpage" style="font-size:40px; display: block;margin-top: 3%;font-family:Geneva;"><b>&emsp;&emsp;Genomics for betterment of mankind.</b></span></p>
+                            <p><span class="text-banner-allpage vrfontP" style="font-size:40px; display: block;margin-top: 3%;font-family:Geneva;"><b>&emsp;&emsp;Genomics for betterment of mankind.</b></span></p>
                         </div>
                     </div>
                     <div style="margin-top: 0.5%;"></div>
