@@ -120,11 +120,11 @@
             <div class="wrapper_this">
                 <div class="container">
                     <div class="row vrMarginTop" >
-                        <div class="col-md-1 col-sm-1 col-xs-0" ></div>
-                        <div class="col-md-5 col-sm-5 col-xs-12" >
-                            <img src="./pic/Facilities/Dell EMC PowerEdge R830 Rack Server2.png" width="350" alt="" style="float: left;">
-                        </div>
-                        <div class="col-md-5 col-sm-5 col-xs-12 " >
+                        <!--<div class="col-md-1 col-sm-1 col-xs-0" ></div>-->
+                        <aside class="col-sm-5" >
+                            <img src="./pic/Facilities/Dell EMC PowerEdge R830 Rack Server2.png" width="350" alt="" style="text-align: left;">
+                        </aside>
+                        <div class="col-sm-7 " >
                         	<div>
                             <h3><b> <a style="color:olive" target="_blank" href="https://www.dell.com/th/business/p/poweredge-r830/pd">
                             Terra (PowerEdge R830 Server)
@@ -140,8 +140,8 @@
                             </div>
                             </div>
                         </div>
-                        <div class="col-md-1 col-sm-1 col-xs-0 " >
-                        </div>
+                        <!--<div class="col-md-1 col-sm-1 col-xs-0 " >
+                        </div>-->
                     </div>
                     <div class="row vrMarginTop">
                         <div class="col-md-1 col-sm-1 col-xs-0" >
@@ -171,7 +171,7 @@
                 	  <div class="row vrMarginTop" >
                         <div class="col-md-1 col-sm-1 col-xs-0" ></div>
                         <div class="col-md-5 col-sm-5 col-xs-12" >
-                            <img src="./Pic/Facilities/Dell Precision Tower 5810 Workstation2.png" height="350" alt="" style="margin-left: 25%">
+                            <img src="./pic/Facilities/Dell Precision Tower 5810 Workstation2.png" height="350" alt="" style="margin-left: 25%">
                         </div>
                         <div class="col-md-5 col-sm-5 col-xs-12 " >
                         	<div style="margin-top: 15%">
@@ -269,7 +269,6 @@
 					</div>
             </div>
             <div style="margin-bottom: 5%"></div>
-            
             <div class="container div-footer" style="margin-top:3%;width:100% ;background: linear-gradient(312deg, rgba(90,185,234,1) 0%, rgba(132,206,235,1) 50%, rgba(86,128,233,1) 100%);padding: 15px 15px; color:#1e456e;">
                 <div class="row">
                     <div class="col-md-5" style="margin-top:1%;"></div>
