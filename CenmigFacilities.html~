@@ -120,11 +120,11 @@
             <div class="wrapper_this">
                 <div class="container">
                     <div class="row vrMarginTop" >
-                        <!--<div class="col-md-1 col-sm-1 col-xs-0" ></div>-->
-                        <aside class="col-sm-5" >
+                        <div class="col-md-1 col-sm-1 col-xs-0" ></div>
+                        <aside class="col-md-5 col-sm-5 col-xs-12" >
                             <img src="./pic/Facilities/Dell EMC PowerEdge R830 Rack Server2.png" width="350" alt="" style="text-align: left;">
                         </aside>
-                        <div class="col-sm-7 " >
+                        <div class="col-md-5 col-sm-5 col-xs-12 " >
                         	<div>
                             <h3><b> <a style="color:olive" target="_blank" href="https://www.dell.com/th/business/p/poweredge-r830/pd">
                             Terra (PowerEdge R830 Server)
@@ -140,8 +140,8 @@
                             </div>
                             </div>
                         </div>
-                        <!--<div class="col-md-1 col-sm-1 col-xs-0 " >
-                        </div>-->
+                        <div class="col-md-1 col-sm-1 col-xs-0 " >
+                        </div>
                     </div>
                     <div class="row vrMarginTop">
                         <div class="col-md-1 col-sm-1 col-xs-0" >
