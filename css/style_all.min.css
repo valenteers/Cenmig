@@ -26382,7 +26382,7 @@ h5.map-add a {
     }
 
     .text-banner-allpage {
-        display: none !important
+        display: block !important
     }
 
     .big_title_blogs:after,
