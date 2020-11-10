@@ -27108,7 +27108,7 @@ button[type="submit"] {
     }
 
     .opt-menu {
-        display: none;
+        display: block;
     }
 
     .logo-head {
@@ -27182,7 +27182,7 @@ button[type="submit"] {
     }
 
     .opt-menu {
-        display: none;
+        display: block;
     }
 
     .logo-head {
