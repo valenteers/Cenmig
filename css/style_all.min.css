@@ -15,13 +15,14 @@
     font-weight: none;
     line-height: 37px;
 }
-#list li:hover {
+#list li a:hover {
     /* background-color: grey; */
     font-weight:bold;
-    color: #003159; 
+    color: #003159
     
     /* border-bottom: 1px solid #003159 */
 }
+
 
 .menu_list {
     visibility: hidden;
