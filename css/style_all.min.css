@@ -17,6 +17,7 @@
 }
 #list li a:hover {
     /* background-color: grey; */
+	color: #FDF3AB !important;
     font-weight:bold;
     color: #003159
     
