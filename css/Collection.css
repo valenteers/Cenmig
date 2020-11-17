@@ -1,0 +1,130 @@
+.list {
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+#list li{
+    color:white;
+    font-family: sans-serif;
+}
+#list li:hover {
+    /* background-color: grey; */
+    font-weight:bold;
+    color: #003159;
+    /* border-bottom: 1px solid #003159 */
+}
+    
+  
+}
+
+.menu_panel {
+    display: block;
+    
+}
+
+.menu_icon {
+    background-color: red;
+}
+.menu_list {
+    visibility: hidden;
+    opacity: 0;
+    transition-property: opacity, visibility;
+    transition-duration: 0s, 0s;
+    transition-delay: 0s, 0s;
+    width: 310px;
+    position: absolute;
+    top: 40px;
+    z-index: 10;
+    background: #253a4eb5;
+    left: 3%;
+    min-height: 220px;
+    opacity:0.5;
+    height: 313px;
+    text-align: left;
+    padding: 2px 40px 0 50px;
+    margin-top: 60px;
+    border-radius: 25px;
+  }
+
+#list a:link,
+#list a:hover{
+    text-decoration: none;
+}
+
+.opt-menu:hover + .menu_list ,
+.menu_list:hover{
+    visibility: visible;
+    opacity: 1;
+    transition-duration: 0.5s, 0.5s;
+    transition-delay: 0.3s, 0.3s;
+  }
+
+
+.grad_bar {
+    background: linear-gradient(
+        156deg, 
+        rgba(90,185,234,1) 0%,
+        rgba(132,206,235,1) 50%, 
+        rgba(86,128,233,1) 100%
+    );
+}
+
+.menu_box_top:after,
+.menu_box_top:before,
+.row-menu:after,
+.row-menu:before {
+    content: '';
+    display: block;
+    clear: both
+}
+
+.logo-head {
+    text-align: left;
+    width: 185px;
+}
+.logo-head img {
+    width: 185px
+}
+
+.tagle-menu .open{
+    display: block
+}
+
+.opt-menu:hover {
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    transition: all ease 2s;
+}
+
+@media screen and (min-width:320px) and (max-width:567px) {
+    .menu_box_top {
+        padding: 9px 20px
+    }
+    .logo-head {
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+}
+
+
+@media screen and (min-width:568px) and (max-width:767px) {
+    .menu_box_top {
+        padding: 9px 20px
+    }
+    
+}
+
+@media screen and (min-width: 400px) and (max-width: 922px) {
+    
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .menu_box_top {
+        padding: 9px 20px
+    }
+}
