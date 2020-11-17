@@ -13,7 +13,7 @@
     color:white;
     font-family: Arial;
     font-weight: none;
-    line-height: 37px;
+    line-height: 42px;
 }
 #list li a:hover {
     /* background-color: grey; */
@@ -30,15 +30,15 @@
     transition-property: opacity, visibility;
     transition-duration: 0s, 0s;
     transition-delay: 0s, 0s;
-    width: 310px;
+    width: 350px;
     position: absolute;
-    top: 50px;
+    top: 30px;
     z-index: 10;
     background: #253a4eb5;
     left: 2%;
     min-height: 220px;
     opacity:0.5;
-    height: 333px;
+    height: 380px;
     text-align: left;
     padding: 20px 40px 0 100px;
     margin-left: 10px;
