@@ -7279,7 +7279,7 @@ button.close {
 .carousel-control,
 .modal-backdrop.in {
     filter: alpha(opacity=50);
-    opacity: .5
+    opacity: 0
 }
 
 .modal-header {
