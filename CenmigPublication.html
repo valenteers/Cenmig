@@ -17,6 +17,7 @@
     <script async="" src="./js/analytics.js"></script>
     <script src="./js/plugins.min.js" type="text/javascript"></script>
     <script src="./js/scripts_all.min.js" type="text/javascript"></script>
+    <script src="./js/fetchapi.js" type="text/javascript"></script>
     <script src="./js/api.js" async="" defer=""></script>
     <link rel="stylesheet" href="./css/w3schools.css">
     <style>
@@ -79,9 +80,9 @@
                     <div class="col-md-2 col-sm-1"></div>
                     <div class="col-md-8 col-sm-10 col-xs-12 grid-right-dwn" style="background:#f0f0f0;  padding-top: 20px; padding-bottom: 5px;">
                     <div  style="text-align: center;margin-bottom: 2%"><h2 ><b>CENMIG Research Outputs</b></h2></div>
-                        <div class="table-downloads">
-                            <div class="content-downloads">
-                                 <h4 class="vrPublicationName">  Homoplastic single nucleotide polymorphisms contributed to phenotypic diversity in Mycobacterium tuberculosis. Sci Rep. 2020 May 15;10:8024. doi: 10.1038/s41598-020-64895-4. </h4>
+                        <div id='paperTable' class="table-downloads">
+                            <!-- <div class="content-downloads">
+                                 <h4 class="vrPublicationName">Homoplastic single nucleotide polymorphisms contributed to phenotypic diversity in Mycobacterium tuberculosis. Sci Rep. 2020 May 15;10:8024. doi: 10.1038/s41598-020-64895-4. </h4>
                                  <h5 class="vrPublicationResearcher">Tantivitayaku P, Ruangchai W, Juthayothin T, Smittipat N, Disratthakit A, Mahasirimongkol S, Viratyosin W, Tokunaga K, Palittapongarnpim P. </h5>
                                 <a download="" href="https://www.nature.com/articles/s41598-020-64895-4" target="blank" > <img src="./pic/Icon/ButtonDownload.png"> </a>
                             </div>
@@ -108,7 +109,7 @@
                             <div class="pagination">
                                 <ul>
                                     <li class="active"><span>1</span></li>
-                                    <!--
+                                    
                                     <li><a href="http://omicbangkok.com/downloads/index/all/2?" data-ci-pagination-page="2" rel="start">2</a></li>
                                     <li><a href="http://omicbangkok.com/downloads/index/all/3?" data-ci-pagination-page="3">3</a></li>
                                     <li><a href="http://omicbangkok.com/downloads/index/all/4?" data-ci-pagination-page="4">4</a></li>
@@ -130,6 +131,13 @@
                     </div>
                 </div>
             </div>
+            <div style='box-sizing: content-box; background-color: aqua;'>
+                <p id='paperBox'><script>updatePaper()</script></p>
+            </div>
+            <!-- <script>
+                var obj = document.getElementById('paperBox');
+                obj.innerHTML = "TEST WORD";
+            </script> -->
             <style>
                 
 
