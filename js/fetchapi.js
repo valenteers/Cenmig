@@ -64,12 +64,12 @@ fetch('https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term
                                 let nodeSrc = document.createTextNode($(xmlDoc1).find('Item[Name="FullJournalName"]').text() + ' ' + $(xmlDoc1).find('Item[Name="PubDate"]').text())
                                 para2.appendChild(nodeSrc);
                                 
-                                // let img = document.createElement('img');
-                                // img.setAttribute('src', './pic/Icon/ButtonDownload.png')
+                                let img = document.createElement('img');
+                                img.setAttribute('src', './pic/Icon/ButtonDownload.png')
 
                                 div.appendChild(a);
                                 div.appendChild(para2);
-                                // div.appendChild(img);
+                                div.appendChild(img);
                                 div.className = 'content-downloads';
                                 document.getElementById('paperTable').appendChild(div);
                                 
