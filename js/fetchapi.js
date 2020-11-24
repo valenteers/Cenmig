@@ -53,6 +53,7 @@ fetch('https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term
                                 console.log($(xmlDoc1).find('Id').text()); // console
                                 var a = document.createElement('a');
                                 a.setAttribute('href','https://pubmed.ncbi.nlm.nih.gov/' + $(xmlDoc1).find('Id').text());
+                                a.setAttribute('target','blank');
                                 let div = document.createElement('div');
                                 let para1 = document.createElement('h4');
                                 para1.className = 'vrPublicationName';
@@ -64,12 +65,12 @@ fetch('https://eutils.ncbi.nlm.nih.gov/entrez/eutils/esearch.fcgi?db=pubmed&term
                                 let nodeSrc = document.createTextNode($(xmlDoc1).find('Item[Name="FullJournalName"]').text() + ' ' + $(xmlDoc1).find('Item[Name="PubDate"]').text())
                                 para2.appendChild(nodeSrc);
                                 
-                                let img = document.createElement('img');
-                                img.setAttribute('src', './pic/Icon/ButtonDownload.png')
+                                // let img = document.createElement('img');
+                                // img.setAttribute('src', './pic/Icon/ButtonDownload.png')
 
                                 div.appendChild(a);
                                 div.appendChild(para2);
-                                div.appendChild(img);
+                                // div.appendChild(img);
                                 div.className = 'content-downloads';
                                 document.getElementById('paperTable').appendChild(div);
                                 
