@@ -187,7 +187,6 @@
                         </div>
                         <div id="1" class="modal" >
                             <div class="modal-content">
-                                <button  >&times;</button>
                                 <img src="./pic/2020_11_11_OpenCenmig/PornchaiMatangkasombut(1024x768).jpg" alt="" title="Pornchai Matangkasombut"></img>
                             </div>
                         </div>
@@ -199,25 +198,24 @@
                         </div>
                         <div  id="2" class="modal" >
                             <div class="modal-content">
-                                <button >&times;</button>
                                 <img src="./pic/2020_11_11_OpenCenmig/PornchaiMatangkasombut(1024x768)1.jpg" alt="" title="Pornchai Matangkasombut"></img>
                             </div>
                         </div>
                         <div class="vrcolumn col-md-4 ">
                             <div class="vrcard w3-hover-shadow">
-                                <div class="w3-container  w3-center"><img id="myBtn" src="./pic/Team/plu.jpg" alt="Sorry.. It's not found." style="width:100%; background-color: white;margin-top:2%;margin-bottom:2%;">
+                                <div class="w3-container  w3-center"><a href="#3" role="button" data-toggle="modal"><img id="myBtn" src="./pic/2020_11_11_OpenCenmig/PrasitPalittapongarnpim(300x200).jpg" alt="Sorry.. It's not found." style="width:100%; background-color: white;margin-top:2%;margin-bottom:2%;"></a> 
                                 </div>
                             </div>
                         </div>
-                        <div id="myModal" class="modal" onclick="close(this.id);">
+                        <div id="3" class="modal" >
                             <div class="modal-content">
-                                <button >&times;</button>
-                                <img src="./pic/2020_11_11_OpenCenmig/PornchaiMatangkasombut(1024x768).jpg" alt="" title="Pornchai Matangkasombut"></img>
+                                <img src="./pic/2020_11_11_OpenCenmig/PrasitPalittapongarnpim(1024x768).jpg" alt="" title="Pornchai Matangkasombut"></img>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
+            <div style="margin-top: 2%"></div>
 
             <script type="text/javascript">
 		            function vrclose(id){
