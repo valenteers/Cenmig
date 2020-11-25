@@ -92,11 +92,6 @@
 		.vrtextSlide{
 			margin-top: -8%
 		}
-		@media screen and (max-width: 500px){
-    .vrtextSlide{
-			margin-top: -9%
-		}    
-    }    
     </style>
 
 </head>

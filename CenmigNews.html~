@@ -41,27 +41,26 @@
 
 <body>
     <div class="nav-container" style="min-height: 0px;">
-        <div id="main_nav" class="row-menu">
-            <div class="menu_box_top">
-                <div class="col-md-3 col-sm-4 col-xs-12">
-                    <div class="logo-head"> <a href=""> <img class="" src="./pic/Logo/CENMIGlogo.png"> </a> </div>
-                </div>
-                <div class="col-md-9 div-lang-search col-sm-8 col-xs-12" style="padding-right: 40px;">
-                </div>
+        <div id="header" class="grad_bar">
+            <div class="logo-head"> 
+                <a href="./index_copy.html"> 
+                    <img src="./pic/Logo/CENMIGlogo.png"> 
+                </a> 
             </div>
         </div>
-        <div class="tagle-menu open"> <img class="opt-menu" style="position: absolute;top: 115px;left: 4%;z-index: 11; cursor:pointer;" src="./pic/Icon/CenmigIconMenu4.png">
-            <div class="container menu-con animated test-gg fadeInDown test-gg" style="height: 516px;">
-                <div class="menu_links">
-                    <ul>
-                        <li><span class="hassubmenu toplevel uppercase"><a href="./index.html">Home</a></span></li>
-                        <li><span class="hassubmenu toplevel uppercase"><a href="./CenmigAboutUs.html">About us</a></span></li>
-                        <li><span class="hassubmenu toplevel uppercase"><a href="./CenmigResearchAreas.html">Research Areas</a></span></li>
-                        <li class="current_menu_parent"><span class="hassubmenu toplevel uppercase"><a href="./CenmigNews.html">News</a></span></li>
-                        <li><span class="hassubmenu toplevel uppercase"><a href="./CenmigResearcher.html">Researcher</a></span></li>
-                        <li><span class="hassubmenu toplevel uppercase"><a href="./CenmigFacilities.html">Facilities</a></span></li>
-                        <li><span class="hassubmenu toplevel uppercase"><a href="./CenmigPublication.html">Publications</a></span></li>
-                        <li class="last"><span class="hassubmenu toplevel uppercase"><a href="./CenmigContact.html">Contact</a></span></li>
+        <div class="menu_panel">
+            <div id="menu_icon">
+                <img class="opt-menu" style="position: absolute;top: 115px;left: 4%;z-index: 11; cursor:pointer;" src="./pic/Icon/CenmigIconMenu4.png">
+                <div class="menu_list">
+                    <ul id="list" style="list-style-type:none";>
+                        <li><span class="toplevel uppercase"><a href="./index.html">Home</a></span></li>
+                        <li><span class="toplevel uppercase"><a href="./CenmigAboutUs.html">About us</a></span></li>
+                        <li><span class="toplevel uppercase"><a href="./CenmigResearchAreas.html">Research Areas</a></span></li>
+                        <li><span class="toplevel uppercase"><a href="./CenmigNews.html">News</a></span></li>
+                        <li><span class="toplevel uppercase"><a href="./CenmigResearcher.html">Researcher</a></span></li>
+                        <li><span class="toplevel uppercase"><a href="./CenmigFacilities.html">Facilities</a></span></li>
+                        <li><span class="toplevel uppercase"><a href="./CenmigPublication.html">Publications</a></span></li>
+                        <li><span class="toplevel uppercase"><a href="./CenmigContact.html">Contact</a></span></li>
                     </ul>
                 </div>
             </div>
@@ -81,16 +80,16 @@
                 		</div>
                 		<div class="big_title_blogs col-md-12" style="position:relative;">
                     	</div>
-                    <div class="container" style="width: 85%; margin-top: 75px;">
+                    <div class="container" style="width: 82%; margin-top: 75px;">
                         <div class="row" style="margin-bottom: 25px;">
                             <div class="col-md-3 col-sm-3 col-xs-12 vrNews" >
-                                <div class="hovereffect-blog"> <a href=" "> <img src="./pic/Logo/CENMIGonHomepage.png" class="img-blog-page" style="height: 100%;"> </a>
-                                    <div class="overlay-ser"> <a class="info" href=" ">Read More &gt;</a> </div>
+                                <div class="hovereffect-blog"> <a > <img src="./news/pic/2020_11_11_OpenCenmig/allhonorables1(300x200).jpg" class="img-blog-page" style="height: 100%;"> </a>
+                                    <div class="overlay-ser"> <a class="info" href="./news/2020_11_11_OpenCenmig.html">Read More &gt;</a> </div>
                                     <div class="btext-info">
-                                        <div class="btitle"> <a href=" ">
-                                                <h5 style="margin-bottom: 15px; margin-top: 15px;font-weight: bold;white-space: nowrap;color: #5e5e5e; text-overflow: ellipsis; overflow:hidden;">&emsp;&emsp;11.11.2020  เปิดศูนย์ <b>CENMIG</b> แล้ว </h5>
+                                        <div class="btitle"> <a href="./news/2020_11_11_OpenCenmig.html">
+                                                <h5 style="margin-bottom: 1%; margin-top: 2%;font-weight: bold;white-space: nowrap;color: #5e5e5e; text-overflow: ellipsis; overflow:hidden;">&emsp;&emsp;11.11.2020  เปิดศูนย์ <b>CENMIG</b> แล้ว </h5>
                                             </a> </div>
-                                        <div class="bintro" style="height: 65px; margin-bottom: 10px; overflow-wrap: break-word;"><strong style="font-size: 13px;"> </strong></div> <a class="bview" style="color:#156aad;text-align: right;display: block;" href=" ">More...</a>
+                                        <div class="bintro" style="height: 10px; margin-bottom: 1%; overflow-wrap: break-word;"><strong style="font-size: 13px;"> </strong></div> <a class="bview" style="color:#156aad;text-align: right;display: block;" href="./news/2020_11_11_OpenCenmig.html">More...</a>
                                     </div>
                                 </div>
                             </div>
@@ -99,9 +98,9 @@
                                     <div class="overlay-ser"> <a class="info" href=" ">Read More &gt;</a> </div>
                                     <div class="btext-info">
                                         <div class="btitle"> <a href=" ">
-                                                <h5 style="margin-bottom: 15px; margin-top: 15px;font-weight: bold;white-space: nowrap;color: #5e5e5e; text-overflow: ellipsis; overflow:hidden;">&emsp;&emsp;11.11.2020  เปิดศูนย์ <b>CENMIG</b> แล้ว </h5>
+                                                <h5 style="margin-bottom: 1%; margin-top: 2%;font-weight: bold;white-space: nowrap;color: #5e5e5e; text-overflow: ellipsis; overflow:hidden;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Wait for Update </h5>
                                             </a> </div>
-                                        <div class="bintro" style="height: 65px; margin-bottom: 10px; overflow-wrap: break-word;"><strong style="font-size: 13px;"> </strong></div> <a class="bview" style="color:#156aad;text-align: right;display: block;" href=" ">More...</a>
+                                        <div class="bintro" style="height: 10px; margin-bottom: 1%; overflow-wrap: break-word;"><strong style="font-size: 13px;"> </strong></div> <a class="bview" style="color:#156aad;text-align: right;display: block;" href=" ">More...</a>
                                     </div>
                                 </div>
                             </div>
@@ -110,9 +109,9 @@
                                     <div class="overlay-ser"> <a class="info" href=" ">Read More &gt;</a> </div>
                                     <div class="btext-info">
                                         <div class="btitle"> <a href=" ">
-                                                <h5 style="margin-bottom: 15px; margin-top: 15px;font-weight: bold;white-space: nowrap;color: #5e5e5e; text-overflow: ellipsis; overflow:hidden;">&emsp;&emsp;11.11.2020  เปิดศูนย์ <b>CENMIG</b> แล้ว </h5>
+                                                <h5 style="margin-bottom: 1%; margin-top: 2%;font-weight: bold;white-space: nowrap;color: #5e5e5e; text-overflow: ellipsis; overflow:hidden;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Wait for Update </h5>
                                             </a> </div>
-                                        <div class="bintro" style="height: 65px; margin-bottom: 10px; overflow-wrap: break-word;"><strong style="font-size: 13px;"> </strong></div> <a class="bview" style="color:#156aad;text-align: right;display: block;" href=" ">More...</a>
+                                        <div class="bintro" style="height: 10px; margin-bottom: 1%; overflow-wrap: break-word;"><strong style="font-size: 13px;"> </strong></div> <a class="bview" style="color:#156aad;text-align: right;display: block;" href=" ">More...</a>
                                     </div>
                                 </div>
                             </div>
@@ -121,9 +120,9 @@
                                     <div class="overlay-ser"> <a class="info" href=" ">Read More &gt;</a> </div>
                                     <div class="btext-info">
                                         <div class="btitle"> <a href=" ">
-                                                <h5 style="margin-bottom: 15px; margin-top: 15px;font-weight: bold;white-space: nowrap;color: #5e5e5e; text-overflow: ellipsis; overflow:hidden;">&emsp;&emsp;11.11.2020  เปิดศูนย์ <b>CENMIG</b> แล้ว </h5>
+                                                <h5 style="margin-bottom: 1%; margin-top: 2%;font-weight: bold;white-space: nowrap;color: #5e5e5e; text-overflow: ellipsis; overflow:hidden;">&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Wait for Update </h5>
                                             </a> </div>
-                                        <div class="bintro" style="height: 65px; margin-bottom: 10px; overflow-wrap: break-word;"><strong style="font-size: 13px;"> </strong></div> <a class="bview" style="color:#156aad;text-align: right;display: block;" href=" ">More...</a>
+                                        <div class="bintro" style="height: 10px; margin-bottom: 1%; overflow-wrap: break-word;"><strong style="font-size: 13px;"> </strong></div> <a class="bview" style="color:#156aad;text-align: right;display: block;" href=" ">More...</a>
                                     </div>
                                 </div>
                             </div>
