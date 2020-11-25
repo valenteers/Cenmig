@@ -166,18 +166,14 @@
                 </div>
             </div>
             <div class="wrapper_this">
-                <div class="container" style="width: 100%; padding: 60px 60px; color:#000;">
+                <div class="container">
                     <div class="row">
-                        <div class="col-md-1">
-                        </div>
-                        <div class="col-md-10 liststyle-content" style="margin-top: 1%;">
+                        <div class=" liststyle-content" style="margin-top: 3%; margin-bottom:3% ;margin-left: 10%;margin-right: 10%;">
                             <h2><b>&emsp;&emsp;พิธีเปิดศูนย์ CENMIGโดย ศ.เกียรติคุณ นพ.พรชัย มาตังคสมบัติ ณ คณะวิทยาศาสตร์ มหาวิทยาลัยมหิดล</b></h2><br>
                             <p>&emsp;&emsp;&emsp; เนื่องด้วยวันที่ 11 พฤศจิกายน 2563 เริ่มพิธีเปิดศูนย์วิจัยจีโนมจุลินทรีย์ Pornchai Matangkasombut Center for Microbial Genomics ณ ห้องประชุม K102 อาคารเฉลิมพระเกียรติ คณะวิทยาศาสตร์ มหาวิทยาลัยมหิดล พญาไท ซึ่งได้รับเกียรติจาก ศาสตราจารย์เกียรติคุณ นายแพทย์พรชัย มาตังคสมบัติ อดีตอธิการบดีมหาวิทยาลัยมหิดล ผู้วางรากฐานอันสำคัญให้แก่การเรียนการสอนระดับบัณฑิตศึกษา และการวิจัยด้านจุลชีววิทยาของประเทศ ศาสตราจารย์ นายแพทย์บรรจง มไหสวริยะ อธิการบดีมหาวิทยาลัยมหิดล Mr.Takahiro MORITA, Chief Representative, JICA Thailand Office ร่วมกล่าวแสดงความยินดีในโอกาสนี้ โดยมี รองศาสตราจารย์ ดร.พลังพล คงเสรี คณบดีคณะวิทยาศาสตร์ พร้อมด้วยผู้บริหารคณะมาร่วมกันให้การต้อนรับ </p>
                             <p>&emsp;&emsp;&emsp;จากนั้น ศาสตราจารย์ นายแพทย์ประสิทธิ์ ผลิตผลการพิมพ์ และ ดร. ภากร เอี้ยวสกุล พันธมิตร อันเป็นสมาชิกผู้ก่อตั้งศูนย์ CENMIG ได้กล่าวถึงความเป็นมา รวมถึงการดำเนินงานของศูนย์ในปัจจุบัน ซึ่งสมาชิกเครือข่ายของศูนย์ฯ มีความเชี่ยวชาญในหลากหลายสาขาวิชา ตั้งแต่ ด้านคอมพิวเตอร์ จุลชีววิทยา การแพทย์และสาธารณสุข ระบาดวิทยา ทฤษฎีวิวัฒนาการ รวมไปถึง คณิตศาสตร์และสถิติ โดยเน้นในการควบคุมรักษาโรคติดเชื้อ</p>
                             <p>&emsp;&emsp;&emsp;เนื่องในโอกาสนี้ ศาสตราจารย์เกียรติคุณ นายแพทย์พรชัย มาตังคสมบัติ ได้แสดงปาฐกถาพิเศษในหัวข้อ “คณะวิทยาศาสตร์ มหาวิทยาลัยมหิดล และการพัฒนาวิทยาศาสตร์ของประเทศไทย” และ รองศาสตราจารย์ แพทย์หญิงอรุณี ธิติธัญญานนท์ ได้บรรยายพิเศษ “Genomics and Infectious Diseases” ในการเปิดศูนย์ CENMIG ด้วย</p>
                             <p>&emsp;&emsp;&emsp;ทั้งนี้ศูนย์ CENMIG ถูกก่อตั้งขึ้นในปี พ.ศ. 2563 ภายใต้การดูแลของภาควิชาจุลชีววิทยา คณะวิทยาศาสตร์ มหาวิทยาลัยมหิดล โดยมีจุดมุ่งหมายในการศึกษาข้อมูลจีโนมของเชื้อโรคสำคัญต่างๆ ภายใต้วิสัยทัศน์ “Genomics for the betterment of mankind” ทั้งนี้เพื่อใช้ยกระดับสาธารณสุขพื้นฐาน เพิ่มความสามารถในการวิเคราะห์ด้านชีวสารสนเทศ และเพื่อผลประโยชน์ของมนุษยชาติ</p>
-                        </div>
-                        <div class="col-md-1" style="margin-top: 65px;">
                         </div>
                     </div>
                 </div>
@@ -188,8 +184,7 @@
                         <div >
                             <h2 style="text-align: center;"><b>รูปงานวันเปิดศูนย์</b></h2>
                         </div>
-                        <div style="margin-top: 3%"></div>
-                        <div >
+                        <div style="margin-top: 3%;">
                             <div class="vrcolumn  "  >
                                 <div class="vrcard w3-hover-shadow">
                                     <div class="w3-container  "><a href="#1" role="button" data-toggle="modal"><img class="vrpicModal" src="./pic/2020_11_11_OpenCenmig/PornchaiMatangkasombut(300x200).jpg" title="Pornchai Matangkasombut" alt="Sorry.. It's not found." ></a>
@@ -313,57 +308,13 @@
                             </div>
                             <div class="vrcolumn ">
                                 <div class="vrcard w3-hover-shadow">
-                                    <div class="w3-container  "><a href="#12" role="button" data-toggle="modal"><img class="vrpicModal" src="./pic/2020_11_11_OpenCenmig/" alt="Sorry.. It's not found."></a>
+                                    <div class="w3-container  "><a href="#12" role="button" data-toggle="modal"><img class="vrpicModal" src="./pic/2020_11_11_OpenCenmig/allhonorables2(300x200).jpg" alt="Sorry.. It's not found."></a>
                                     </div>
                                 </div>
                             </div>
                             <div id="12" class="modal">
                                 <div class="modal-content">
-                                    <img src="./pic/2020_11_11_OpenCenmig/" alt="Sorry.. It's not found." title="">
-                                </div>
-                            </div>
-                            <div class="vrcolumn ">
-                                <div class="vrcard w3-hover-shadow">
-                                    <div class="w3-container  "><a href="#" role="button" data-toggle="modal"><img class="vrpicModal" src="" alt="Sorry.. It's not found."></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="" class="modal">
-                                <div class="modal-content">
-                                    <img src="" alt="Sorry.. It's not found." title="">
-                                </div>
-                            </div>
-                            <div class="vrcolumn ">
-                                <div class="vrcard w3-hover-shadow">
-                                    <div class="w3-container  "><a href="#" role="button" data-toggle="modal"><img class="vrpicModal" src="" alt="Sorry.. It's not found."></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="" class="modal">
-                                <div class="modal-content">
-                                    <img src="" alt="Sorry.. It's not found." title="">
-                                </div>
-                            </div>
-                            <div class="vrcolumn ">
-                                <div class="vrcard w3-hover-shadow">
-                                    <div class="w3-container  "><a href="#" role="button" data-toggle="modal"><img class="vrpicModal" src="" alt="Sorry.. It's not found."></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="" class="modal">
-                                <div class="modal-content">
-                                    <img src="" alt="Sorry.. It's not found." title="">
-                                </div>
-                            </div>
-                            <div class="vrcolumn ">
-                                <div class="vrcard w3-hover-shadow">
-                                    <div class="w3-container  "><a href="#" role="button" data-toggle="modal"><img class="vrpicModal" src="" alt="Sorry.. It's not found."></a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div id="" class="modal">
-                                <div class="modal-content">
-                                    <img src="" alt="Sorry.. It's not found." title="">
+                                    <img src="./pic/2020_11_11_OpenCenmig/allhonorables2(1024x768).jpg" alt="Sorry.. It's not found." title="">
                                 </div>
                             </div>
                         </div>
