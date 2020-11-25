@@ -183,8 +183,7 @@ img {
 /* Remove extra left and right margins, due to padding */
 .vrrow {
     margin: 0 -5px;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-top: 2%;
 }
 
 /* Clear floats after the columns */
@@ -203,10 +202,6 @@ img {
     line-height: 1.4;
 }
 
-.vrrow {
-    margin-top: 2%;
-}
-
 .vrcard:hover {
     box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19)
 }
@@ -223,7 +218,7 @@ img {
 }
 .w3-center {
     text-align: center;
-    display: inline-block;
+
     width: auto;
 }
 
@@ -328,4 +323,7 @@ img {
 }
 .vrpicMiniSize {
     width: 30%;
+}
+.vrminusMargin{
+	margin-top: -8%
 }
