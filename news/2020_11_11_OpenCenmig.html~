@@ -3,7 +3,7 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <title>CENMIG-ResearchAreas</title>
+    <title>CENMIG-OpenCENMIG</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Pornchai Matangkasombut Center for Microbial Genomics">
     <meta name="keywords" content="cenmig,  genetic, analysis">
@@ -21,10 +21,21 @@
     <script src="../js/api.js" async="" defer=""></script>
     <link rel="stylesheet" href="../css/w3schools.css">
     <style type="text/css">
+    		.vrcenter{
+    		 	margin-left: 10%;
+    		 	margin-right: 10%;
+    		}
+    		.vrpicModal{
+    			width:100%; 
+    			background-color: white;
+    			margin-top:2%;
+    			margin-bottom:2%;
+    		}
         /* Float four columns side by side */
         .vrcolumn {
-        		width: 18%;
-            padding: 0 10px;
+            width: 25%;
+            padding: 0 13px;
+
         }
 
         /* Remove extra left and right margins, due to padding */
@@ -95,10 +106,10 @@
 
         /* Modal Content */
         .modal-content {
-        		position: absolute;
-  				left: 50%;
-  				top: 50%;
-  				transform: translate(-50%, -50%);
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
             background-color: #fefefe;
             /*margin: auto;*/
             padding: 20px;
@@ -125,10 +136,10 @@
 <body>
     <div>
         <div id="header" class="grad_bar_head">
-            <div class="logo-head"> 
-                <a href="./index_copy.html"> 
-                    <img src="../pic/Logo/CENMIGlogo.png"> 
-                </a> 
+            <div class="logo-head">
+                <a href="./index_copy.html">
+                    <img src="../pic/Logo/CENMIGlogo.png">
+                </a>
             </div>
         </div>
         <div class="menu_panel">
@@ -172,57 +183,199 @@
                 </div>
             </div>
             <div class="text-ab-page" >
-
-                <div class="container " >
-                		
-                    <div class="vrrow " >
-                        <div>
+                <div class="vrcenter">
+                    <div class="vrrow ">
+                        <div >
                             <h2 style="text-align: center;"><b>รูปงานวันเปิดศูนย์</b></h2>
                         </div>
-                         <div style="margin-top: 3%"></div>
-                        <div class="vrcolumn col-md-4 ">
-                            <div class="vrcard w3-hover-shadow">
-                                <div class="w3-container  w3-center"><a href="#1" role="button" data-toggle="modal"><img id="myBtn" src="./pic/2020_11_11_OpenCenmig/PornchaiMatangkasombut(300x200).jpg" title="Pornchai Matangkasombut" alt="Sorry.. It's not found." style="width:100%; background-color: white;margin-top:2%;margin-bottom:2%;" ></a>
+                        <div style="margin-top: 3%"></div>
+                        <div >
+                            <div class="vrcolumn  "  >
+                                <div class="vrcard w3-hover-shadow">
+                                    <div class="w3-container  "><a href="#1" role="button" data-toggle="modal"><img class="vrpicModal" src="./pic/2020_11_11_OpenCenmig/PornchaiMatangkasombut(300x200).jpg" title="Pornchai Matangkasombut" alt="Sorry.. It's not found." ></a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div id="1" class="modal" >
-                            <div class="modal-content">
-                                <img src="./pic/2020_11_11_OpenCenmig/PornchaiMatangkasombut(1024x768).jpg" alt="" title="Pornchai Matangkasombut"></img>
-                            </div>
-                        </div>
-                        <div class="vrcolumn col-md-4 ">
-                            <div class="vrcard w3-hover-shadow">
-                                <div class="w3-container  w3-center"><a href="#2" role="button" data-toggle="modal"><img id="myBtn" src="./pic/2020_11_11_OpenCenmig/PornchaiMatangkasombut(300x200)1.jpg" alt="Sorry.. It's not found." style="width:100%; background-color: white;margin-top:2%;margin-bottom:2%;" ></a>                         
+                            <div id="1" class="modal">
+                                <div class="modal-content">
+                                    <img src="./pic/2020_11_11_OpenCenmig/PornchaiMatangkasombut(1024x768).jpg" alt="Sorry.. It's not found." title="Pornchai Matangkasombut">
                                 </div>
                             </div>
-                        </div>
-                        <div  id="2" class="modal" >
-                            <div class="modal-content">
-                                <img src="./pic/2020_11_11_OpenCenmig/PornchaiMatangkasombut(1024x768)1.jpg" alt="" title="Pornchai Matangkasombut"></img>
-                            </div>
-                        </div>
-                        <div class="vrcolumn col-md-4 ">
-                            <div class="vrcard w3-hover-shadow">
-                                <div class="w3-container  w3-center"><a href="#3" role="button" data-toggle="modal"><img id="myBtn" src="./pic/2020_11_11_OpenCenmig/PrasitPalittapongarnpim(300x200).jpg" alt="Sorry.. It's not found." style="width:100%; background-color: white;margin-top:2%;margin-bottom:2%;"></a> 
+                            <div class="vrcolumn ">
+                                <div class="vrcard w3-hover-shadow">
+                                    <div class="w3-container  "><a href="#2" role="button" data-toggle="modal"><img class="vrpicModal" src="./pic/2020_11_11_OpenCenmig/PornchaiMatangkasombut(300x200)1.jpg" alt="Sorry.. It's not found." ></a>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div id="3" class="modal" >
-                            <div class="modal-content">
-                                <img src="./pic/2020_11_11_OpenCenmig/PrasitPalittapongarnpim(1024x768).jpg" alt="" title="Pornchai Matangkasombut"></img>
+                            <div id="2" class="modal">
+                                <div class="modal-content">
+                                    <img src="./pic/2020_11_11_OpenCenmig/PornchaiMatangkasombut(1024x768)1.jpg" alt="Sorry.. It's not found." title="Pornchai Matangkasombut">
+                                </div>
+                            </div>
+                            <div class="vrcolumn ">
+                                <div class="vrcard w3-hover-shadow">
+                                    <div class="w3-container  "><a href="#3" role="button" data-toggle="modal"><img class="vrpicModal" src="./pic/2020_11_11_OpenCenmig/PrasitPalittapongarnpim(300x200).jpg" alt="Sorry.. It's not found."></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="3" class="modal">
+                                <div class="modal-content">
+                                    <img src="./pic/2020_11_11_OpenCenmig/PrasitPalittapongarnpim(1024x768).jpg" alt="Sorry.. It's not found." title="Pornchai Matangkasombut">
+                                </div>
+                            </div>
+                            <div class="vrcolumn ">
+                                <div class="vrcard w3-hover-shadow">
+                                    <div class="w3-container  "><a href="#4" role="button" data-toggle="modal"><img class="vrpicModal" src="./pic/2020_11_11_OpenCenmig/honorable1(300x200).jpg" alt="Sorry.. It's not found."></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="4" class="modal">
+                                <div class="modal-content">
+                                    <img src="./pic/2020_11_11_OpenCenmig/honorable1(1024x768).jpg" alt="Sorry.. It's not found." title="">
+                                </div>
+                            </div>
+                            <div class="vrcolumn ">
+                                <div class="vrcard w3-hover-shadow">
+                                    <div class="w3-container  "><a href="#5" role="button" data-toggle="modal"><img class="vrpicModal" src="./pic/2020_11_11_OpenCenmig/PakornAiewsakun(300x200).jpg" alt="Sorry.. It's not found."></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="5" class="modal">
+                                <div class="modal-content">
+                                    <img src="./pic/2020_11_11_OpenCenmig/PakornAiewsakun(1024x768).jpg" alt="Sorry.. It's not found." title="">
+                                </div>
+                            </div>
+                            <div class="vrcolumn ">
+                                <div class="vrcard w3-hover-shadow">
+                                    <div class="w3-container  "><a href="#6" role="button" data-toggle="modal"><img class="vrpicModal" src="./pic/2020_11_11_OpenCenmig/Aj.Mei(300x200).jpg" alt="Sorry.. It's not found."></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="6" class="modal">
+                                <div class="modal-content">
+                                    <img src="./pic/2020_11_11_OpenCenmig/Aj.Mei(1024x768).jpg" alt="Sorry.. It's not found." title="">
+                                </div>
+                            </div>
+                            <div class="vrcolumn ">
+                                <div class="vrcard w3-hover-shadow">
+                                    <div class="w3-container  "><a href="#7" role="button" data-toggle="modal"><img class="vrpicModal" src="./pic/2020_11_11_OpenCenmig/honorable2(300x200).jpg" alt="Sorry.. It's not found."></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="7" class="modal">
+                                <div class="modal-content">
+                                    <img src="./pic/2020_11_11_OpenCenmig/honorable2(1024x768).jpg" alt="Sorry.. It's not found." title="">
+                                </div>
+                            </div>
+                            <div class="vrcolumn ">
+                                <div class="vrcard w3-hover-shadow">
+                                    <div class="w3-container  "><a href="#8" role="button" data-toggle="modal"><img class="vrpicModal" src="./pic/2020_11_11_OpenCenmig/honorable3(300x200).jpg" alt="Sorry.. It's not found."></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="8" class="modal">
+                                <div class="modal-content">
+                                    <img src="./pic/2020_11_11_OpenCenmig/honorable3(1024x768).jpg" alt="Sorry.. It's not found." title="">
+                                </div>
+                            </div>
+                            <div class="vrcolumn ">
+                                <div class="vrcard w3-hover-shadow">
+                                    <div class="w3-container  "><a href="#9" role="button" data-toggle="modal"><img class="vrpicModal" src="./pic/2020_11_11_OpenCenmig/EnterCENMIG(300x200).jpg" alt="Sorry.. It's not found."></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="9" class="modal">
+                                <div class="modal-content">
+                                    <img src="./pic/2020_11_11_OpenCenmig/EnterCENMIG(1024x768).jpg" alt="Sorry.. It's not found." title="">
+                                </div>
+                            </div>
+                            <div class="vrcolumn ">
+                                <div class="vrcard w3-hover-shadow">
+                                    <div class="w3-container  "><a href="#10" role="button" data-toggle="modal"><img class="vrpicModal" src="./pic/2020_11_11_OpenCenmig/gift1(300x200).jpg" alt="Sorry.. It's not found."></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="10" class="modal">
+                                <div class="modal-content">
+                                    <img src="./pic/2020_11_11_OpenCenmig/gift1(1024x768).jpg" alt="Sorry.. It's not found." title="">
+                                </div>
+                            </div>
+                            <div class="vrcolumn ">
+                                <div class="vrcard w3-hover-shadow">
+                                    <div class="w3-container  "><a href="#11" role="button" data-toggle="modal"><img class="vrpicModal" src="./pic/2020_11_11_OpenCenmig/gift2(300x200).jpg" alt="Sorry.. It's not found."></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="11" class="modal">
+                                <div class="modal-content">
+                                    <img src="./pic/2020_11_11_OpenCenmig/gift2(1024x768).jpg" alt="Sorry.. It's not found." title="">
+                                </div>
+                            </div>
+                            <div class="vrcolumn ">
+                                <div class="vrcard w3-hover-shadow">
+                                    <div class="w3-container  "><a href="#12" role="button" data-toggle="modal"><img class="vrpicModal" src="./pic/2020_11_11_OpenCenmig/" alt="Sorry.. It's not found."></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="12" class="modal">
+                                <div class="modal-content">
+                                    <img src="./pic/2020_11_11_OpenCenmig/" alt="Sorry.. It's not found." title="">
+                                </div>
+                            </div>
+                            <div class="vrcolumn ">
+                                <div class="vrcard w3-hover-shadow">
+                                    <div class="w3-container  "><a href="#" role="button" data-toggle="modal"><img class="vrpicModal" src="" alt="Sorry.. It's not found."></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="" class="modal">
+                                <div class="modal-content">
+                                    <img src="" alt="Sorry.. It's not found." title="">
+                                </div>
+                            </div>
+                            <div class="vrcolumn ">
+                                <div class="vrcard w3-hover-shadow">
+                                    <div class="w3-container  "><a href="#" role="button" data-toggle="modal"><img class="vrpicModal" src="" alt="Sorry.. It's not found."></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="" class="modal">
+                                <div class="modal-content">
+                                    <img src="" alt="Sorry.. It's not found." title="">
+                                </div>
+                            </div>
+                            <div class="vrcolumn ">
+                                <div class="vrcard w3-hover-shadow">
+                                    <div class="w3-container  "><a href="#" role="button" data-toggle="modal"><img class="vrpicModal" src="" alt="Sorry.. It's not found."></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="" class="modal">
+                                <div class="modal-content">
+                                    <img src="" alt="Sorry.. It's not found." title="">
+                                </div>
+                            </div>
+                            <div class="vrcolumn ">
+                                <div class="vrcard w3-hover-shadow">
+                                    <div class="w3-container  "><a href="#" role="button" data-toggle="modal"><img class="vrpicModal" src="" alt="Sorry.. It's not found."></a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="" class="modal">
+                                <div class="modal-content">
+                                    <img src="" alt="Sorry.. It's not found." title="">
+                                </div>
                             </div>
                         </div>
                     </div>
-                    
                 </div>
             </div>
             <div style="margin-top: 2%"></div>
 
             <script type="text/javascript">
-		            function vrclose(id){
+                /*function vrclose(id){
 							            $(id).modal('hide');
-		            }
+		            }*/
                 /*var modal = document.getElementByClassName("modal");
                 var btn = document.getElementById("myBtn");
                 var span = document.getElementsByClassName("close");
@@ -239,16 +392,26 @@
                 }*/
             </script>
             <div class="grad_bar_foot">
-            <div class="copy_right" style="margin-top:2%;"> 
-                <span style="font-size: 12px;color:white;">COPYRIGHT © 2020 by CENMIG</span> 
+
+                <div class="copy_right" style="margin-top:2%;">
+
+                    <span style="font-size: 12px;color:white;">COPYRIGHT © 2020 by CENMIG</span>
+
+                </div>
+
+                <div class="date" style="color:white;">
+
+                    <p> | <a href="http://science.mahidol.ac.th/" target="_blank" style="color:white;">SC Home</a>
+
+                        | <a href="http://www.mahidol.ac.th/" target="_blank" style="color:white;">MU Home</a> | </p>
+
+                    <a class="scroll-to-top" href="#top"> <img alt="Scroll" width="35px" src="../pic/Icon/arrow-scroll2.png"> </a>
+
+                </div>
+
             </div>
-            <div class="date" style="color:white;">
-                <p> | <a href="http://science.mahidol.ac.th/" target="_blank" style="color:white;">SC Home</a>
-                    | <a href="http://www.mahidol.ac.th/" target="_blank" style="color:white;">MU Home</a> | </p>
-                        <a class="scroll-to-top" href="#top"> <img alt="Scroll" width="35px" src="../pic/Icon/arrow-scroll2.png"> </a>
-            </div>
+
         </div>
-    </div>
 </body>
 
 </html>
