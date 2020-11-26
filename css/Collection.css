@@ -393,3 +393,75 @@ body {
       -webkit-transform: translatey(0);
       transform: translatey(0);
   }
+  .vrcolumnAj {
+    float: left;
+    width: 20%;
+    padding: 0 4px;
+}
+.vrcolumn {
+    float: left;
+    width: 16.6%;
+    padding: 0 4px;
+}
+.vrpadAj {
+    height: 50px;
+}
+.vrpadP {
+    height: 55px;
+}
+.vrpad {
+    margin-top: 8%;
+    text-align: center;
+}
+
+.vrrow {
+    margin: 0 -2px;
+}
+
+.vrrow:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive columns */
+@media screen and (max-width: 1000px) {
+    .vrcolumnAj {
+        width: 33%;
+        display: block;
+        margin-bottom: 2%;
+    }
+    .vrcolumn {
+        width: 33%;
+        display: block;
+        margin-bottom: 2%;
+    }
+}
+@media screen and (max-width: 500px) {
+    .vrcolumnAj {
+        width: 50%;
+        display: block;
+        margin-bottom: 2%;
+    }
+    .vrcolumn {
+        width: 50%;
+        display: block;
+        margin-bottom: 2%;
+    }
+}
+/* Style the counter cards */
+.vrcardP {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 5px;
+    text-align: center;
+    background-color: #f1f1f1;
+    margin-bottom: 7%;
+}
+p.vrfontsize {
+    font-size: 10px;
+}
+.text-ab-page {
+    margin: 50px 0;
+    background: #f0f0f0;
+    padding: 50px 0;
+}
