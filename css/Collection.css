@@ -4,7 +4,7 @@
 #home{
     display:block;
 }
-#aboutUs, #resAreas {
+#aboutUs, #resAreas, #news, #publictations{
     display:none;
 }
 html {
@@ -345,14 +345,14 @@ body {
 .hovereffect-blog {
    width: 100%;
    height: 100%;
-   float: left;
+   /* float: left; */
    overflow: hidden;
    position: relative;
    text-align: center;
    cursor: default;
-   margin-bottom: 10%;
+   margin-bottom: 0%;
   }
-    .hovereffect-blog a.info {
+.hovereffect-blog a.info {
    text-decoration: none;
    display: inline-block;
    text-transform: uppercase;
@@ -371,9 +371,9 @@ body {
   }
   .hovereffect-blog .overlay-ser {
    width: 100%;
-   height: 75%;
+   height: 100%;
    position: absolute;
-   overflow: hidden;
+   /* overflow: hidden; */
    top: 0;
    left: 0;
    opacity: 0;
@@ -383,9 +383,9 @@ body {
   }
   .img-blog-page {
    width: 100%;
-   height: 230px;
-   object-fit: cover;
-   object-position: center center;
+   height: 100%;
+   /* object-fit: cover; */
+   /* object-position: center center; */
   }
   .hovereffect-blog:hover .overlay-ser {
    opacity: 1;
@@ -398,3 +398,36 @@ body {
       -webkit-transform: translatey(0);
       transform: translatey(0);
   }
+
+  /* puplication */
+  .content-downloads {
+    position: relative;
+    background: #fff;
+    margin-bottom: 20px;
+    padding: 20px 30px;
+    min-height: 140px;
+}
+
+.content-downloads h5 {
+    margin-bottom: 10px;
+    color: #151e3d;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.content-downloads img {
+    width: 160px;
+    position: absolute;
+    right: 7%;
+    top: 38%;
+}
+
+.content-downloads:before {
+    position: absolute;
+    content: "";
+    width: 10px;
+    height: 152px;
+    background: linear-gradient(to bottom, rgba(31, 72, 112, 1) 0%, rgba(39, 99, 133, 1) 34%, rgba(46, 125, 154, 1) 54%, rgba(53, 148, 172, 1) 72%, rgba(60, 175, 193, 1) 100%);
+    left: 0;
+    top: 0;
+}
