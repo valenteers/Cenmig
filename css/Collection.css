@@ -4,7 +4,9 @@
 #home{
     display:block;
 }
-#aboutUs, #resAreas, #news, #res, #publictations,
+/* #aboutUs, */
+/* #resAreas, */
+#news, #res, #publictations,
 #facility, #contact{
     display:none;
 }
@@ -343,8 +345,9 @@ body {
     line-height: 1.8;
 }
 .big_title_blogs {
+   margin-top: 8px;
    height: 8px;
-   position: absolute;
+   position: relative;
    background: #d0d0d0;
   }
 .hovereffect-blog {
