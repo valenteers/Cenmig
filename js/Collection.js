@@ -85,10 +85,10 @@ function linkto(el) {
     page.style.display = 'block';
     // for debug
     console.log(el +'.display  : '+page.style.display);
+};
 
-
-$('.list-thumb').html(text);
-$(document).on('click', '.list-thumb .item-thumb', function(e) {
-    var index = $(this).data('index');
-    $("#owl-demo").trigger("to.owl.carousel", index)
-});
+// $('.list-thumb').html(text);
+// $(document).on('click', '.list-thumb .item-thumb', function(e) {
+//     var index = $(this).data('index');
+//     $("#owl-demo").trigger("to.owl.carousel", index)
+// });
