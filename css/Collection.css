@@ -4,7 +4,7 @@
 #home{
     display:block;
 }
-#aboutUs, #resAreas, #news, #publictations{
+#aboutUs, #resAreas, #news, #res, #publictations{
     display:none;
 }
 html {
@@ -239,8 +239,10 @@ img {
         line-height: 1.3;
     }
     .vrcontentCenter {
-	 	  margin-left: 5%;
-	 	  margin-right: 5%;
+	 	margin-left: 5%;
+        margin-right: 5%;
+        
+           
 	 }
 	 .vrpicSize {
 	     width: 90%;
@@ -316,6 +318,8 @@ img {
 .vrcontentCenter {
     margin-left: 10%;
     margin-right: 10%;
+    
+
 }
 .vrspaceTopDown {
     margin-top: 5%;
