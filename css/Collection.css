@@ -5,7 +5,7 @@
     display:block;
 }
 #aboutUs, #resAreas, #news, #res, #publictations,
-#facility{
+#facility, #contact{
     display:none;
 }
 html {
