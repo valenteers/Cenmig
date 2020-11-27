@@ -4,7 +4,7 @@
 #home{
     display:block;
 }
-#aboutUs, #resAreas, #news, #res, #publictations{
+#aboutUs, #resAreas, #news, #res, #publictations, #contact{
     display:none;
 }
 html {
@@ -20,7 +20,14 @@ img {
     border-style: none;
     vertical-align: middle
 }
-
+h1, h2, h3, h4, h5, h6{
+	font-family: "Segoe UI", Arial, sans-serif;
+	font-weight: 400;
+}
+h4{
+	font-size: 20px;
+	line-height: 32px;
+}
 .list {
     height: 120px;
     display: flex;
@@ -225,96 +232,6 @@ img {
     text-align: center;
     width: auto;
 }
-@media screen and (max-width: 1000px) {
-    .vrcolumn {
-        width: 50%;
-        display: block;
-        margin-bottom: 20px;
-    }
-    .vrh4{
-        font-size: 30px;
-    }
-    .vrh5{
-        font-size: 20px;
-        line-height: 1.3;
-    }
-    .vrcontentCenter {
-	 	margin-left: 5%;
-        margin-right: 5%;
-        
-           
-	 }
-	 .vrpicSize {
-	     width: 90%;
-	 }
-	 .vrpicMiniSize {
-	     width: 40%;
-	 }
-}
-@media screen and (max-width: 800px) {
-    .vrh4{
-        font-size: 25px;
-    }
-    .vrh5{
-        font-size: 15px;
-        line-height: 1.2;
-    }
-}
-@media screen and (max-width: 650px) {
-    .vrh4{
-        font-size: 21px;
-    }
-.vrh5{
-        font-size: 10px;
-        line-height: 1.0;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .vrcolumn {
-        width: 100%;
-        display: block;
-        margin-bottom: 20px;
-    }
-    .vrh4{
-        font-size: 18px;
-    }
-    .vrh5{
-        font-size: 8px;
-        line-height: 0.8;
-    }
-}
-/* @media screen and (min-width:320px) and (max-width:567px) {
-    .menu_box_top {
-        padding: 9px 20px
-    }
-    .logo-head {
-        text-align: center;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        width: 50%;
-    }
-} */
-
-
-/* @media screen and (min-width:568px) and (max-width:767px) {
-    .menu_box_top {
-        padding: 9px 20px
-    }
-    
-}
-
-@media screen and (min-width: 400px) and (max-width: 922px) {
-    
-}
-
-@media screen and (min-width:768px) and (max-width:1024px) {
-    .menu_box_top {
-        padding: 9px 20px
-    }
-} */
-/*CSS in CenmigAboutUs Page*/
 .vrcontentCenter {
     margin-left: 10%;
     margin-right: 10%;
@@ -465,33 +382,6 @@ body {
     display: table;
     clear: both;
 }
-
-/* Responsive columns */
-@media screen and (max-width: 1000px) {
-    .vrcolumnAj {
-        width: 33%;
-        display: block;
-        margin-bottom: 2%;
-    }
-    .vrcolumnP {
-        width: 33%;
-        display: block;
-        margin-bottom: 2%;
-    }
-}
-@media screen and (max-width: 500px) {
-    .vrcolumnAj {
-        width: 50%;
-        display: block;
-        margin-bottom: 2%;
-    }
-    .vrcolumnP {
-        width: 50%;
-        display: block;
-        margin-bottom: 2%;
-    }
-}
-/* Style the counter cards */
 .vrcardP {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     padding: 5px;
@@ -506,3 +396,171 @@ p.vrfontsize {
     margin: 50px 0;
     background: #f0f0f0;
     padding: 50px 0;
+}
+.contact-menu {
+    padding: 5px 20px 20px;
+    margin: 0;
+    border-bottom: 1px solid #cdcdcd;
+}
+
+.contact-menu h4:hover {
+    color: #30889e;
+    text-decoration: underline;
+}
+
+.contact-menu a:hover {
+    color: #30889e;
+    text-decoration: underline;
+}
+.vrcontentWidth{
+	width: 28%;
+}
+.vrmapWidth{
+	width: 65%;
+}
+.vrcontactTopMargin{
+	margin-top: 30%;
+}
+.nav {
+    padding-left: 0;
+    margin-bottom: 0;
+    list-style: none
+}
+.nav-tabs {
+		color: #555;
+		border: 1px solid #ddd ;
+    border-bottom: 1px solid #ddd ;
+    width: 10%;
+    display: block;
+}
+a{
+	font-weight: 600;
+	text-decoration: none;
+}
+a:active,
+a:hover {
+    outline: 0
+}
+.tab-content>.active {
+    display: block
+}
+@media screen and (max-width: 1500px){
+		.vrcontentWidth{
+      	width: 100%;
+      }
+      .vrmapWidth{
+      	width: 100%;
+      }
+      .vrcontactTopMargin{
+			margin-top: 5%;
+		}
+}
+@media screen and (max-width: 1000px) {
+    .vrcolumn {
+        width: 50%;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .vrh4{
+        font-size: 30px;
+    }
+    .vrh5{
+        font-size: 20px;
+        line-height: 1.3;
+    }
+    .vrcontentCenter {
+	 	margin-left: 5%;
+        margin-right: 5%;
+	 }
+	 .vrpicSize {
+	     width: 90%;
+	 }
+	 .vrpicMiniSize {
+	     width: 40%;
+	 }
+	 .vrcolumnAj {
+        width: 33%;
+        display: block;
+        margin-bottom: 2%;
+    }
+    .vrcolumnP {
+        width: 33%;
+        display: block;
+        margin-bottom: 2%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .vrh4{
+        font-size: 25px;
+    }
+    .vrh5{
+        font-size: 15px;
+        line-height: 1.2;
+    }
+}
+@media screen and (max-width: 650px) {
+    .vrh4{
+        font-size: 21px;
+    }
+.vrh5{
+        font-size: 10px;
+        line-height: 1.0;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .vrcolumn {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+    .vrh4{
+        font-size: 18px;
+    }
+    .vrh5{
+        font-size: 8px;
+        line-height: 0.8;
+    }
+	 .vrcolumnAj {
+        width: 50%;
+        display: block;
+        margin-bottom: 2%;
+    }
+    .vrcolumnP {
+        width: 50%;
+        display: block;
+        margin-bottom: 2%;
+    }
+}
+/* @media screen and (min-width:320px) and (max-width:567px) {
+    .menu_box_top {
+        padding: 9px 20px
+    }
+    .logo-head {
+        text-align: center;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+} */
+
+
+/* @media screen and (min-width:568px) and (max-width:767px) {
+    .menu_box_top {
+        padding: 9px 20px
+    }
+    
+}
+
+@media screen and (min-width: 400px) and (max-width: 922px) {
+    
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .menu_box_top {
+        padding: 9px 20px
+    }
+} */
+/*CSS in CenmigAboutUs Page*/
+

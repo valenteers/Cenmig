@@ -84,7 +84,7 @@ function linkto(el) {
     let page = document.getElementById(el);
     page.style.display = 'block';
     // for debug
-    console.log(el +'.display  : '+page.style.display);
+    //console.log(el +'.display  : '+page.style.display);
 };
 
 // $('.list-thumb').html(text);

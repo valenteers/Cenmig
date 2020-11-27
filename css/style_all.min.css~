@@ -17,7 +17,7 @@
 }
 #list li a:hover {
     /* background-color: grey; */
-	color: #FDF3AB !important;
+	color: #FDF3AB ;
     font-weight:bold;
     
     /* border-bottom: 1px solid #003159 */
@@ -5048,7 +5048,8 @@ textarea.input-group-sm>.input-group-btn>.btn {
 }
 
 .nav-tabs {
-    border-bottom: 1px solid #ddd
+    border-bottom: 1px solid #ddd ;
+    width: 70%;
 }
 
 .nav-tabs>li {
@@ -7279,7 +7280,7 @@ button.close {
 .carousel-control,
 .modal-backdrop.in {
     filter: alpha(opacity=50);
-    opacity: .5
+    opacity: 0
 }
 
 .modal-header {
