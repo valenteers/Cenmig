@@ -398,7 +398,7 @@ body {
     width: 20%;
     padding: 0 4px;
 }
-.vrcolumn {
+.vrcolumnP {
     float: left;
     width: 16.6%;
     padding: 0 4px;
@@ -431,7 +431,7 @@ body {
         display: block;
         margin-bottom: 2%;
     }
-    .vrcolumn {
+    .vrcolumnP {
         width: 33%;
         display: block;
         margin-bottom: 2%;
@@ -443,7 +443,7 @@ body {
         display: block;
         margin-bottom: 2%;
     }
-    .vrcolumn {
+    .vrcolumnP {
         width: 50%;
         display: block;
         margin-bottom: 2%;
