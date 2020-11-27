@@ -4,7 +4,8 @@
 #home{
     display:block;
 }
-#aboutUs, #resAreas, #news, #res, #publictations{
+#aboutUs, #resAreas, #news, #res, #publictations,
+#facility{
     display:none;
 }
 html {
