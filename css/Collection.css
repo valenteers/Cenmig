@@ -4,7 +4,12 @@
 #home{
     display:block;
 }
-#aboutUs, #resAreas, #news, #res, #publictations, #contact{
+<<<<<<< HEAD
+#aboutUs, #resAreas, #news, #res, #facility, #publictations, #contact{
+=======
+#aboutUs, #resAreas, #news, #res, #publictations,
+#facility, #contact{
+>>>>>>> 5d788ae43000c3151333d793766445a2abb5bf34
     display:none;
 }
 html {
