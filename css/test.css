@@ -1,0 +1,100 @@
+
+
+#Icon{
+  
+  transform: scale(1);
+  transition-property: 'transform:rotate';
+  transition-duration: 1s;
+}
+
+#menu-tab:hover #Icon{
+ 
+  transform: scale(1.2);
+  transition-property: 'transform:rotate';
+  transition-duration: 1s;
+}
+
+#menu-title-tab {
+  background-color:aqua;
+  position: relative;
+  width:100px;
+  height: 100px;
+}
+
+
+#rest-logo {
+ 
+  visibility: hidden;
+  opacity:0;
+  transform: translateX(20px);
+  transition-property: opacity, visibility, transform;
+  transition-duration: 1s, 1s, 1s;
+  transition-delay: 0.5s;
+}
+#menu-tab:hover #rest-logo{
+  visibility: visible;
+  opacity:1;
+  transform: translateX(0px);
+  transition-property: opacity, visibility, transform;
+  transition-duration: 0.5s, 0.5s, 1s;
+  
+}
+#link-list {
+  text-align:left;
+  visibility: hidden;
+  opacity:0;
+  transform: translateY(-45px);
+  transition-property: opacity, visibility, transform;
+  transition-duration: 1s, 1s, 1s;
+  
+
+}
+#menu-tab:hover #link-list{
+  visibility: visible; 
+  opacity:1;
+  transform: translateY(-25px);
+
+  /* transition-property: opacity, visibility, transform; */
+  transition-duration: 0.5s, 0.5s, 0.5s;
+  transition-delay: 0.3s;
+}
+
+#list {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  padding-left: 50px;
+  
+}
+#list a{
+  text-decoration: none;
+}
+
+/* .menu_list {
+    visibility: hidden;
+    opacity: 0;
+    transition-property: opacity, visibility;
+    transition-duration: 0s, 0s;
+    transition-delay: 0s, 0s;
+    width: 310px;
+    position: absolute;
+    top: 40px;
+    z-index: 10;
+    background: #253a4eb5;
+    left: 3%;
+    min-height: 220px;
+    opacity:0.5;
+    height: 313px;
+    text-align: left;
+    padding: 2px 40px 0 50px;
+    margin-top: 60px;
+    border-radius: 25px;
+  }
+
+  .opt-menu:hover + .menu_list ,
+.menu_list:hover{
+    visibility: visible;
+    opacity: 1;
+    transition-duration: 0.5s, 0.5s;
+    transition-delay: 0.3s, 0.3s;
+  } */
