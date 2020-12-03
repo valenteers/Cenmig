@@ -36,8 +36,59 @@ var text = "";
 for (i = 0; i < item_length; i++) {
     text += '<div class="item-thumb" data-index="' + i + '"><span></span></div>';
 }
-$('.list-thumb').html(text);
-$(document).on('click', '.list-thumb .item-thumb', function(e) {
-    var index = $(this).data('index');
-    $("#owl-demo").trigger("to.owl.carousel", index)
-});
+//=======================NEW MENU PROJECT==============================
+// $(document).ready(function() {
+// let menuIcon = document.createElement('img');
+// let menuLogo = document.createElement('img');
+// menuIcon.src = "./pic/Icon/CenmigIconMenu4.png";
+// menuIcon.id = 'mIcon';
+// menuLogo.src = "./pic/Icon/enmig.png";
+// menuLogo.id = 'mLogo';
+
+// let test = document.getElementById('test');
+// test.appendChild(menuIcon);
+// test.appendChild(menuLogo);
+
+// let menuLink = document.createElement('div');
+// menuLogo.style.display = 'none';
+// // menuLogo.style.transitionProperty= 'opacity, visibility';
+// // menuLogo.style.transitionDuration ='0s, 0s';
+// // menuLogo.style.transitionDelay= '0s,0s';
+// // menuLogo.style.opacity= '0.5';
+
+
+// })
+// $(function(){
+// $('#test').hover(function(){
+//     $('#mLogo').fadeIn();
+//     $('#mIcon').animateRotate(180, {
+//         duration: 1337,
+//         easing: 'swing',
+//         complete: function () {},
+//         step: function () {}
+//       });
+// }, function(){
+//     $('#mLogo').fadeOut();
+//     $('#mIcon').animateRotate(180, {
+//         duration: 1337,
+//         easing: 'linear',
+//         complete: function () {},
+//         step: function () {}
+//       });
+// });
+// });
+
+//===============merging project=============
+function linkto(el) {
+    $('.page').hide();
+    let page = document.getElementById(el);
+    page.style.display = 'block';
+    // for debug
+    console.log(el +'.display  : '+page.style.display);
+};
+
+// $('.list-thumb').html(text);
+// $(document).on('click', '.list-thumb .item-thumb', function(e) {
+//     var index = $(this).data('index');
+//     $("#owl-demo").trigger("to.owl.carousel", index)
+// });

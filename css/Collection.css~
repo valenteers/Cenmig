@@ -1,105 +1,14 @@
-/* testing */
-.debug {
-    background-color: rgba(53, 148, 172, 1);
-    border-right: 1px solid black;
-}
-#home {
-    padding:20px 0 10px 0;
-}
-.hi-card {
-  
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding:2% 2% 0 2%;
-    background-color: #f1f1f1;
-    width:300px;
-    text-decoration: none;
-    margin: 0 2%;
-    transition: transform .2s;
-}
-.line-border{
-    align-items: center;
-    background-color: silver;
-    margin:auto;
-    height:10px;
-    width:65%;
-   
-    
-}
-.hi-card:hover{
-    transform: scale(1.1);
-}
-.hi-card-img{
-   
-    width:100%;
-}
-.dark-grey-tab {
-    background: #d0d0d0;
-    padding-left:6%;
-}
-
-.page {
-    margin: 0% 0%;
-}
-.flx-container {
-    display:flex; 
-    flex-wrap: wrap;
-    justify-content: center; 
-    align-items: center; 
-    padding:0% 2% 0% 6%;
-}
-.align-h{
-    height: 300px;
-    
-}
-.box {
-    width:333px;
-    ;
-    /* box-sizing: content-box; */
-    /* height: auto; */
-    /* background-color: rgba(53, 148, 172, 1); */
-    /* border-right: 1px solid black; */
-    /* border-left: 1px solid black; */
-
-
-
-}
-.head {
-    /* border-bottom: 1px solid black; */
-    height:20%;
-    vertical-align:middle;
-    text-align: center;
-    
-}
-.cont {
-    font-weight: lighter;
-    text-align: left;
-    font-size: 17px ;
-    /* border-bottom: 1px solid black; */
-}
- .grey-tab {
-    background-color: #ededed;
- }
-
-
 * {
     box-sizing: border-box;
 }
-#home{
-    display:block;
-}
-#aboutUs,
-#resAreas,
-#news,#publictations,#res,#facility,#contact{
-    display:none;
-}
+
 html {
     -ms-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
 
 body {
-    margin: 0;
-   
+    margin: 0
 }
 
 img {
@@ -133,7 +42,6 @@ img {
 
 .menu_panel {
     display: block;
-    
 }
 
 .menu_icon {
@@ -326,10 +234,8 @@ img {
         line-height: 1.3;
     }
     .vrcontentCenter {
-	 	margin-left: 5%;
-        margin-right: 5%;
-        
-           
+	 	  margin-left: 5%;
+	 	  margin-right: 5%;
 	 }
 	 .vrpicSize {
 	     width: 90%;
@@ -405,8 +311,6 @@ img {
 .vrcontentCenter {
     margin-left: 10%;
     margin-right: 10%;
-    
-
 }
 .vrspaceTopDown {
     margin-top: 5%;
@@ -425,27 +329,25 @@ img {
 html,
 body {
     font-family: Verdana, sans-serif;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.8;
-    scroll-behavior: smooth;
 }
 .big_title_blogs {
-   margin-top: 8px;
    height: 8px;
-   position: relative;
+   position: absolute;
    background: #d0d0d0;
   }
 .hovereffect-blog {
    width: 100%;
    height: 100%;
-   /* float: left; */
+   float: left;
    overflow: hidden;
    position: relative;
    text-align: center;
    cursor: default;
-   margin-bottom: 0%;
+   margin-bottom: 10%;
   }
-.hovereffect-blog a.info {
+    .hovereffect-blog a.info {
    text-decoration: none;
    display: inline-block;
    text-transform: uppercase;
@@ -464,9 +366,9 @@ body {
   }
   .hovereffect-blog .overlay-ser {
    width: 100%;
-   height: 100%;
+   height: 75%;
    position: absolute;
-   /* overflow: hidden; */
+   overflow: hidden;
    top: 0;
    left: 0;
    opacity: 0;
@@ -476,9 +378,9 @@ body {
   }
   .img-blog-page {
    width: 100%;
-   height: 100%;
-   /* object-fit: cover; */
-   /* object-position: center center; */
+   height: 230px;
+   object-fit: cover;
+   object-position: center center;
   }
   .hovereffect-blog:hover .overlay-ser {
    opacity: 1;
@@ -491,45 +393,12 @@ body {
       -webkit-transform: translatey(0);
       transform: translatey(0);
   }
-
-  /* puplication */
-  .content-downloads {
-    position: relative;
-    background: #fff;
-    margin-bottom: 20px;
-    padding: 20px 30px;
-    min-height: 140px;
-}
-
-.content-downloads h5 {
-    margin-bottom: 10px;
-    color: #151e3d;
-    font-weight: bold;
-    font-size: 15px;
-}
-
-.content-downloads img {
-    width: 160px;
-    position: absolute;
-    right: 7%;
-    top: 38%;
-}
-
-.content-downloads:before {
-    position: absolute;
-    content: "";
-    width: 10px;
-    height: 152px;
-    background: linear-gradient(to bottom, rgba(31, 72, 112, 1) 0%, rgba(39, 99, 133, 1) 34%, rgba(46, 125, 154, 1) 54%, rgba(53, 148, 172, 1) 72%, rgba(60, 175, 193, 1) 100%);
-    left: 0;
-    top: 0;
-}
-.vrcolumnAj {
+  .vrcolumnAj {
     float: left;
     width: 20%;
     padding: 0 4px;
 }
-.vrcolumnP {
+.vrcolumn {
     float: left;
     width: 16.6%;
     padding: 0 4px;
@@ -562,7 +431,7 @@ body {
         display: block;
         margin-bottom: 2%;
     }
-    .vrcolumnP {
+    .vrcolumn {
         width: 33%;
         display: block;
         margin-bottom: 2%;
@@ -574,7 +443,7 @@ body {
         display: block;
         margin-bottom: 2%;
     }
-    .vrcolumnP {
+    .vrcolumn {
         width: 50%;
         display: block;
         margin-bottom: 2%;
@@ -582,25 +451,11 @@ body {
 }
 /* Style the counter cards */
 .vrcardP {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
-    padding: 1% 1% 0% 1%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    padding: 5px;
     text-align: center;
     background-color: #f1f1f1;
-    margin:1%;
-    width: 180px;
-    height: 310px;
-    font-size:10px;
-}
-
-.vrcardRes {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
-    padding: 1% 1% 0% 1%;
-    text-align: center;
-    background-color: #f1f1f1;
-    margin:1%;
-    width: 160px;
-    font-size:10px;
-    
+    margin-bottom: 7%;
 }
 p.vrfontsize {
     font-size: 10px;
@@ -610,148 +465,3 @@ p.vrfontsize {
     background: #f0f0f0;
     padding: 50px 0;
 }
-
-/* Menu animation */
-
-
-#Icon{
-    position: relative;
-    z-index:3;
-    transform: scale(1);
-    transition-property: transform;
-    transition-duration: 1s;
-  }
-  
-  #Icon:hover,#opt:hover #Icon{
-   
-    transform: scale(1.2);
-    transition-property: transform;
-    transition-duration: 1s;
-  }
-  
-  #menu-title-tab {
-    
-    margin-top:5px;
-    width: 0px;
-    height: 45px;
-    visibility: hidden;
-    background-color: oldlace;
-    opacity:0;
-    position: absolute;
-    left:20px;
-    bottom:245px;
-    z-index: 1;
-    transition:  1s;
-    transition-property: opacity, visibility,width;
-    transition-duration: 0.6s, 0.6s,0.6s;
-    transition-delay: 0.5s;
-  }
-  
-  #Icon:hover + #opt #menu-title-tab,
-  #opt:hover #menu-title-tab{
-    z-index: 1;
-    visibility: visible;
-    opacity:1;
-    width:246px;
-    transition-property: opacity, visibility,width;
-    transition-duration: 0.5s, 0.5s,0.6s;
-    
-  }
-  #opt{
-    position: relative;
-    bottom:55px;
-    /* background-color: ivory; */
-  }
-  
-  #rest-logo {
-    visibility: hidden;
-    position: absolute;
-    margin-top:5px;
-    z-index: 1;
-    opacity:0;
-    transform: translateX(100px);
-    transition-property: opacity, visibility, transform;
-    transition-duration: 1s, 1s, 1s;
-    transition-delay: 0.5s;
-  }
-  #Icon:hover +#opt #rest-logo,
-  #opt:hover #rest-logo{
-    
-    visibility: visible;
-    opacity:1;
-    transform: translateX(60px);
-    transition-property: opacity, visibility, transform;
-    transition-duration: 0.5s, 0.5s, 1s;
-    
-  }
-  
-  /* #menu-link-tab{
-    border-radius:10%;
-    position: absolute;
-    z-index:0;
-    width: 200px;
-    height: 270px;
-    visibility: visible;
-    
-    opacity:0;
-    top:30px;
-    left:15px;
-    transition: opacity 1s;
-    transition-delay: 1s;
-    
-  }
-  
-  #Icon:hover ~#menu-link-tab{
-    visibility: hidden;
-    opacity:0;
-    
-  }
-   */
-  #link-list {
-    font-family: 'Noto Sans TC', sans-serif;
-    position:relative;
-    left:16.3px;
-    top:50px;
-    width:250px;
-    padding-top:20px;
-    padding-right: 20px;
-    /* background: rgba(52, 160, 248, 0.4);  */
-    background:rgba(80, 201, 206,0.4);
-    
-    text-align:left;
-    visibility: hidden;
-    opacity:0;
-    transform: translateY(-45px);
-    transition-property: opacity, visibility, transform;
-    transition-duration: 1s, 1s, 1s;
-    
-    
-  
-  }
-  #Icon:hover +#opt #link-list,
-  #link-list:hover, #opt:hover #link-list{
-    visibility: visible; 
-    
-    opacity:1;
-    transform: translateY(-25px);
-    transition-property: opacity, visibility, transform;
-    transition-duration: 0.5s, 0.5s, 0.5s;
-    transition-delay: 1s;
-  }
-  
-  
-  #list {
-    position: relative;
-    z-index: 1;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 30px;
-    padding-left: 50px;
-    
-  }
-  #list a{
-    text-decoration: none;
-  }
-  
-  
-  
