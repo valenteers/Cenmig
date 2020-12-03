@@ -12,6 +12,8 @@
         <script src="./js/jquery.js" type="text/javascript"></script>
         <script src="./js/fetchapi.js" type="text/javascript"></script>
         <script src="./js/test.js" type="text/javascript"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500&display=swap" rel="stylesheet">
         <link href="./pic/Icon/CenmigIcon.png" rel="shortcut icon" type="image/x-icon" />
         <link href="./css/Collection.css" rel="stylesheet" type="text/css" />
         <script src="./js/Collection.js" type="text/javascript"></script>
@@ -27,22 +29,31 @@
                 </div>
             </div>
             <!-- ========== MENU PANEL ========== -->
-            <div class="menu_panel" style='position:fixed; z-index: 999;'>
-                <div id="menu_icon">
-                    <img class="opt-menu" style="position: absolute; top: 115px; left: 4%; z-index: 11; cursor: pointer;" src="./pic/Icon/CenmigIconMenu4.png" />
-                    <div class="menu_list">
-                        <ul id="list" style="list-style-type: none;">
-                        <li><span ><a href="#home">Home</a></span></li>
-                        <li><span ><a href="#aboutUs">About us</a></span></li>
-                        <li><span ><a href="#resAreas">Research Areas</a></span></li>
-                        <li><span ><a href="./CenmigNews.html"></a></span></li>
-                        <li> <span><a href="#res">Researchers</a></span></li>
-                        <li> <span><a href="#facility">Facilities</a></span> </li>
-                        <li><span ><a href="./CenmigPublication.html">Publications</a></span></li>
-                        <li><span ><a href="#contact">Contact</a></span></li>
-                    		</ul>
+            <div class="menu_panel" style='position:fixed;z-index:99;'>
+                <div id='menu-tab'>
+                    
+                    <img id='Icon' style='width:55px'src='./pic/Icon/Cv2.png'>
+        
+                    <div id='opt'>
+                        <div id='menu-title-tab'></div>
+                        <div id='menu-link-tab'></div>
+                        <img id='rest-logo' src='./pic/Icon/enmig.png'>
+                        <div id='link-list'>
+                            <ul id="list" style="list-style-type: none;">
+                                <li><a href="javascript:linkto('home')">HOME</a></li>
+                                <li><a href="javascript:linkto('news')">NEWS</a></li>
+                                <li><a href="javascript:linkto('publictations')">PUBLICATION</a></li>
+                                <li><a href="javascript:linkto('res')">RESEARCHERS</a></li>
+                                <li><a href="javascript:linkto('aboutUs')">ABOUT CENMIG</a></li>
+                                <span style='font-size: 16px;'>
+                                    <li><a href="javascript:linkto('resAreas')">&emsp;Research Areas</a></li>
+                                    <li><a href="javascript:linkto('facility')">&emsp;Facilities</a></li>
+                                    <li><a href="javascript:linkto('contact')">&emsp;Contact</a></li>
+                                </span>
+                            </ul>
+                        </div>
                     </div>
-                </div>
+                </div>  
             </div>
             <!-- ========== SLIDING PIC ==========  -->
             <div>
