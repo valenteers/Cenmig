@@ -32,7 +32,7 @@
             <div class="menu_panel" style='position:fixed;z-index:99;'>
                 <div id='menu-tab'>
                     
-                    <img id='Icon' style='width:55px'src='./pic/Icon/Cv2.png'>
+                    <img id='Icon' style='width:55px;margin-left: 2%;'src='./pic/Icon/Cv2.png'>
         
                     <div id='opt'>
                         <div id='menu-title-tab'></div>
@@ -557,7 +557,7 @@
                             <div style="text-align: center;margin-bottom: 2%">
                                 <h2><b>CENMIG Research Outputs</b></h2>
                             </div>
-                            <div id='paperTable' class="table-downloads" style="margin-left: 1%;margin-right: 1%;">
+                            <div id='paperTable' class="table-downloads" style="margin-left: 2%;margin-right: 2%;">
                                     <!-- api goes here -->
                             </div>
                         </div>
