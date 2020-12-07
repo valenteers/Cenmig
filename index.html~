@@ -105,7 +105,7 @@
             <div class='page' id='home'>
                 <div class='line-border' >
                 </div> 
-                <div style="margin-left:18% ;margin-top: 0%;margin-bottom: 0%;">
+                <div style="margin-left:18% ;margin-top: -1%;">
 											<h2> News Highlight</h2>                
                 </div>
 
@@ -178,13 +178,11 @@
                 <div class='dark-grey-tab'>
                     <h2>About CENMIG</h2>
                 </div>
-                <div class='flx-container' style="margin-top:2% ;margin-bottom:2%;">
-                    <div style='width: 40%;'>
-                        
+                <div class='flx-container ' style="margin-top:2% ;margin-bottom:2%;">
+                    <div  class="vrchangePicSize" >
                         <img  style='width:96%; margin-right:2%;' src="./pic/Team/teamCENMIG.jpg" />
-                        
                     </div>
-                    <div style='flex:1;'>
+                    <div class="vrrowToColumn">
                         <span >
                         <h2 style='line-height:0%;'>
                             <b> CENMIG </b>
@@ -207,6 +205,7 @@
                     </div>
                 </div>
                 <div class='flx-container grey-tab' >
+                			
                         <div style='flex:1;'>
                             <!-- <h4 style="font-size: 14px;">
                                 <b>Emeritus Professor Pornchai Matangkasombut</b>
@@ -223,7 +222,7 @@
                                 of Excellence for Life Science (TCELS), to which he still provides advice to the present.
                             </p>
                         </div>
-                        <div style="width: 30%;margin-top:2% ;margin-bottom:2%;">
+                        <div class="vrchangePicSizeAj" >
                             <img style='padding-left:3%;width:77%' src="./pic/Team/Pornchai1.jpg" alt="" />
                         </div>
                 </div>
@@ -247,7 +246,7 @@
                         </div>  
                     </div>
                     <div class='box align-h'>
-                        <div class='head' style='line-height:110%;' ><h3>Molecular <br> Phylogenetics</h3></div>
+                        <div class='head' style='line-height:150%;' ><h3>Molecular <br> Phylogenetics</h3></div>
                         <div class='cont'> &emsp;&emsp;&emsp;Evolutionary history and relationships among a group of organisms, inferred from molecular data to address
                             various biological questions.</div>
                     </div>

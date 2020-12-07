@@ -359,6 +359,7 @@ img {
         line-height: 1.0;
     }
      .vrtextSlide{
+     	line-height: 1.2;
 		font-size: 14px;
 	}
 }
@@ -377,7 +378,6 @@ img {
         line-height: 0.8;
     }
     .vrtextSlide{
-    	line-height: 1.2;
 		font-size: 12px;
 	}
 }
@@ -576,6 +576,17 @@ body {
     display: table;
     clear: both;
 }
+.vrchangePicSize{
+	width: 40%;
+	}
+	.vrrowToColumn{
+		flex: 1; 
+		}
+		.vrchangePicSizeAj{
+			width: 30%;
+			margin-top:2% ;
+			margin-bottom:3%;
+		}
 @media screen and (max-width: 1200px) {
 	.vrminusMargin{
 	margin-top: -8%
@@ -583,6 +594,13 @@ body {
 .vrtopSlideMargin{
 	top: 3%;
 	}
+	.vrchangePicSize{
+	   width: 50%;
+	   margin-bottom: 2%;
+	}
+	.flx-container {
+		flex-direction : column;
+		}
 	}
 /* Responsive columns */
 @media screen and (max-width: 1000px) {
@@ -597,6 +615,14 @@ body {
         margin-bottom: 2%;
     }
 
+}
+@media screen and (max-width: 800px) {
+	.vrchangePicSize{
+	   width: 80%;
+	}
+	.vrchangePicSizeAj{
+			width: 50%;
+		}
 }
 @media screen and (max-width: 500px) {
     .vrcolumnAj {
