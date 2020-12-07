@@ -346,6 +346,9 @@ img {
         font-size: 15px;
         line-height: 1.2;
     }
+    .vrtextSlide{
+		font-size: 18px;
+	}
 }
 @media screen and (max-width: 650px) {
     .vrh4{
@@ -355,6 +358,9 @@ img {
         font-size: 10px;
         line-height: 1.0;
     }
+     .vrtextSlide{
+		font-size: 14px;
+	}
 }
 
 @media screen and (max-width: 500px) {
@@ -370,6 +376,10 @@ img {
         font-size: 8px;
         line-height: 0.8;
     }
+    .vrtextSlide{
+    	line-height: 1.2;
+		font-size: 12px;
+	}
 }
 /* @media screen and (min-width:320px) and (max-width:567px) {
     .menu_box_top {
@@ -428,6 +438,10 @@ img {
 	text-align: left; 
 	left: 28%; 
 	top: 12%;
+	}
+	.vrtextSlide{
+		color: #fff; 
+		font-family: Time News Roman;
 	}
 /* CSS from All Style Min*/
 html,
