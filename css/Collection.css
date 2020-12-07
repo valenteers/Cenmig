@@ -419,8 +419,16 @@ img {
     width: 30%;
 }
 .vrminusMargin{
-	margin-top: -8%
+	margin-top: -5%
 }
+.vrtopSlideMargin{
+	position: absolute; 
+	bottom: 0; 
+	color: #fff; 
+	text-align: left; 
+	left: 28%; 
+	top: 12%;
+	}
 /* CSS from All Style Min*/
 html,
 body {
@@ -554,7 +562,14 @@ body {
     display: table;
     clear: both;
 }
-
+@media screen and (max-width: 1200px) {
+	.vrminusMargin{
+	margin-top: -8%
+}
+.vrtopSlideMargin{
+	top: 3%;
+	}
+	}
 /* Responsive columns */
 @media screen and (max-width: 1000px) {
     .vrcolumnAj {
@@ -567,6 +582,7 @@ body {
         display: block;
         margin-bottom: 2%;
     }
+
 }
 @media screen and (max-width: 500px) {
     .vrcolumnAj {
