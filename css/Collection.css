@@ -598,7 +598,7 @@ body {
 	   width: 50%;
 	   margin-bottom: 2%;
 	}
-	.flx-container {
+	.vrflexchange {
 		flex-direction : column;
 		}
 	}
