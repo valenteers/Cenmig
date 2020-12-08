@@ -32,7 +32,7 @@
             <div class="menu_panel" style='position:fixed;z-index:99;'>
                 <div id='menu-tab'>
                     
-                    <img id='Icon' style='width:55px;margin-left: 2%;'src='./pic/Icon/Cv2.png'>
+                    <img id='Icon' style='width:55px;margin-left: 4%;'src='./pic/Icon/Cv2.png'>
         
                     <div id='opt'>
                         <div id='menu-title-tab'></div>
@@ -69,7 +69,7 @@
                                 <h5 class="vrh5">
                                     <span class="vrtextSlide">
                                         <b>
-                                            &emsp;&emsp;&emsp;An excellent research and training center for interpretation of genomics information for disease controls and treatment..
+                                            &emsp;&emsp;&emsp;An excellent research and training center for interpretation of genomics information for disease controls and treatment.
                                         </b>
                                     </span>
                                 </h5>
@@ -130,14 +130,11 @@
                                 </p>
                                 <div style='text-align: right;'>
                                     <a style='text-decoration:none;' target="blank" href="./news/2020_11_11_OpenCenmig.html">    
-                                        
                                             &ensp;Read More...
-                                    
                                     </a>   
                                 </div> 
                             </div>                 
                         </div>
-                        
                     </div>
                     <div class="hi-card" style="margin-bottom: 4%">
                         <div class='hi-card-img'>
@@ -158,12 +155,35 @@
                                 </p>
                                 <div style='text-align: right;'>
                                     <a style='text-decoration:none;' target="blank" href="./news/2020_12_17_SnppletCourse.html">    
-                                        
                                             &ensp;Read More...
-                                        
                                     </a>   
                                 </div> 
-                                
+                            </div>                 
+                        </div>
+                    </div>
+                    <div class="hi-card" style="margin-bottom: 4%">
+                        <div class='hi-card-img'>
+                            <a href="./news/2020_11_11_OpenCenmig.html" target="blank">
+                                <img src="./news/pic/2020_11_11_OpenCenmig/allhonorables1(300x200).jpg" 
+                                     alt="" 
+                                     style="width: 100%; 
+                                            background-color: white; " />
+                            </a>
+                        </div>
+                        <div class='hi-card-cont'>
+                            <h4 style='text-align: center;'>
+                            CENMIG Opening Ceremony
+                            </h4>
+                            <div style='position:relative; bottom:10px'>
+                                <p style='font-size:12px; text-align:left;'>
+                                &ensp;&ensp;&ensp;The ceremony was held on 11.11.20 at faculy of science, Mahidol university.
+                                The ceremony began with... 
+                                </p>
+                                <div style='text-align: right;'>
+                                    <a style='text-decoration:none;' target="blank" href="./news/2020_11_11_OpenCenmig.html">    
+                                            &ensp;Read More...
+                                    </a>   
+                                </div> 
                             </div>                 
                         </div>
                     </div>
@@ -204,7 +224,7 @@
                         </p>
                     </div>
                 </div>
-                <div class='flx-container grey-tab' >
+                <div class='flx-container grey-tab vrflexchange' >
                 			
                         <div style='flex:1;'>
                             <!-- <h4 style="font-size: 14px;">
@@ -262,13 +282,13 @@
                     <div style="margin-top: 3%;">
                         <div class="vrcolumn">
                             <div>
-                                <div class='hovereffect-blog'>                  
+                                <div class='hovereffect-blog'>             
                                     <div class="overlay-ser">
-                                        <a class="info" href="./news/2020_11_11_OpenCenmig.html" target="_blank">
+                                        <a class="info" href="./news/2020_11_11_OpenCenmig.html" target="_blank" style="font-size: 1.8em;">
                                             Read More &gt;
                                         </a>
                                     </div>
-                                    <a> 
+                                    <a href="./news/2020_11_11_OpenCenmig.html" target="_blank"> 
                                         <img src="./news/pic/2020_11_11_OpenCenmig/allhonorables1(300x200).jpg" class="img-blog-page" style="height: 100%;" /> 
                                     </a>
                                 </div>  
@@ -289,11 +309,11 @@
                             <div>
                                 <div class="hovereffect-blog">
                                     <div class="overlay-ser">
-                                        <a class="info" href="./news/2020_12_17_SnppletCourse.html" target="_blank">
+                                        <a class="info" href="./news/2020_12_17_SnppletCourse.html" target="_blank" style="font-size: 1.8em;">
                                             Read More &gt;
                                         </a>
                                     </div>
-                                    <a> 
+                                    <a href="./news/2020_12_17_SnppletCourse.html" target="_blank"> 
                                         <img src="./news/pic/2020_12_17_SnppletCourse/SnppletCourse(300x200).jpg" class="img-blog-page" style="height: 100%;" /> 
                                     </a>
                                 </div>    
@@ -304,19 +324,17 @@
                                         </h5>
                                     </a>
                                 </div>
-                               
                                 <a style="color: #156aad; text-align: right; display: block;text-decoration: none;"
                                     href="./news/2020_12_17_SnppletCourse.html" target="_blank"><b>More...</b></a>
-                            
                             </div>
                         </div>
                         <div class="vrcolumn">
                             <div class="hovereffect-blog">
                                 <a href=" "> <img src="./pic/Logo/CENMIGonHomepage.png" class="img-blog-page" style="height: 100%;" /> </a>
-                                <div class="overlay-ser"><a class="info" href=" ">Read More &gt;</a></div>
+                                <div class="overlay-ser"><a class="info" href=" " style="font-size: 1.8em;">Read More &gt;</a></div>
                                 <div>
                                     <a href=" " target="_blank" style="text-decoration: none;">
-                                        <h5 style="margin-bottom: 1%; margin-top: 2%; font-weight: bold; white-space: nowrap; color: #5e5e5e; text-overflow: ellipsis; overflow: hidden;">&emsp;&emsp;&emsp;&emsp;Wait for Update</h5>
+                                        <h5 style="margin-bottom: 1%; margin-top: 2%; font-weight: bold; white-space: nowrap; color: #5e5e5e; text-overflow: ellipsis; overflow: hidden;">&emsp;&emsp;COMING SOON</h5>
                                     </a>
                                 </div>
                                 <div style="height: 10px; margin-bottom: 1%; overflow-wrap: break-word;"><strong style="font-size: 13px;"> </strong></div>
@@ -326,19 +344,16 @@
                         <div class="vrcolumn">
                             <div class="hovereffect-blog">
                                 <a href=" "> <img src="./pic/Logo/CENMIGonHomepage.png" class="img-blog-page" style="height: 100%;" /> </a>
-                                <div class="overlay-ser"><a class="info" href=" ">Read More &gt;</a></div>
+                                <div class="overlay-ser"><a class="info" href=" " style="font-size: 1.8em;">Read More &gt;</a></div>
                                 <div>
                                     <a href=" " target="_blank" style="text-decoration: none;">
-                                        <h5 style="margin-bottom: 1%; margin-top: 2%; font-weight: bold; white-space: nowrap; color: #5e5e5e; text-overflow: ellipsis; overflow: hidden;">&emsp;&emsp;&emsp;&emsp;Wait for Update</h5>
+                                        <h5 style="margin-bottom: 1%; margin-top: 2%; font-weight: bold; white-space: nowrap; color: #5e5e5e; text-overflow: ellipsis; overflow: hidden;">&emsp;&emsp;COMING SOON</h5>
                                     </a>
                                 </div>
                                 <div style="height: 10px; margin-bottom: 1%; overflow-wrap: break-word;"><strong style="font-size: 13px;"> </strong></div>
                                 <a style="color: #156aad; text-align: right; display: block;text-decoration: none;" href=" "><b>More...</b></a>
                             </div>
                         </div>
-                        <div><p>&emsp;</p></div>
-                        <div class="big_title_blogs" style="position: relative;"></div>
-                        <div><p>&emsp;</p></div>
                     </div>
                 </div>
             </div>
