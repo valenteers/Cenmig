@@ -9,9 +9,9 @@
 .hi-card {
   
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 2% 2% 0 2%;
+    padding: 1% 1% 0 1%;
     background-color: #f1f1f1;
-    height: 410px;
+    height: 380px;
     width:300px;
     text-decoration: none;
     margin: 0 2%;
@@ -694,7 +694,7 @@ p.vrfontsize {
  }
  @media screen and (max-width: 1380px) {
  .hi-card {
- 	height: 380px;
+ 	    padding: 1.5% 1.5% 0 1.5%;
  }
  }
  
@@ -748,6 +748,9 @@ p.vrfontsize {
         display: block;
         margin-bottom: 4%;
     }
+     .hi-card {
+ 	    padding: 1.8% 1.8% 0 1.8%;
+ }
 }
 @media screen and (max-width: 800px) {
 	.vrchangePicSize{
@@ -766,6 +769,9 @@ p.vrfontsize {
     .vrtextSlide{
 		font-size: 18px;
 	}
+	 .hi-card {
+ 	    padding: 2% 2% 0 2%;
+ }
 }
 @media screen and (max-width: 650px) {
     .vrh4{
