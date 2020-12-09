@@ -9,8 +9,9 @@
 .hi-card {
   
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding:2% 2% 0 2%;
+    padding: 2% 2% 0 2%;
     background-color: #f1f1f1;
+    height: 410px;
     width:300px;
     text-decoration: none;
     margin: 0 2%;
@@ -691,6 +692,12 @@ p.vrfontsize {
         margin-bottom: 4%;
     }
  }
+ @media screen and (max-width: 1500px) {
+ .hi-card {
+ 	height: 380px;
+ }
+ }
+ 
 @media screen and (max-width: 1200px) {
 	.vrminusMargin{
 	margin-top: -8%

@@ -69,7 +69,7 @@
                                 <h5 class="vrh5">
                                     <span class="vrtextSlide">
                                         <b>
-                                            &emsp;&emsp;&emsp;An excellent research and training center for interpretation of genomics information for disease controls and treatment.
+                                            &emsp;&emsp;&emsp;An excellent research and training center for interpretation of genomics information for disease controls and treatment
                                         </b>
                                     </span>
                                 </h5>
@@ -84,7 +84,7 @@
                                 <h5 class="vrh5">
                                     <span class="vrtextSlide">
                                         <b>
-                                            &emsp;&emsp;Genomics for the betterment of mankind.
+                                            &emsp;&emsp;Genomics for the betterment of mankind
                                         </b>
                                     </span>
                                 </h5>
@@ -106,7 +106,7 @@
                 <div class='line-border' >
                 </div> 
                 <div style="margin-left:18% ;margin-top: -1%;">
-											<h2> News Highlight</h2>                
+											<h2> News Highlights</h2>                
                 </div>
 
                 <div class='flx-container' style='margin:2% 0;'>
@@ -119,7 +119,7 @@
                                             background-color: white; " />
                             </a>
                         </div>
-                        <div class='hi-card-cont'>
+                        <div >
                             <h4 style='text-align: center;'>
                             CENMIG Opening Ceremony
                             </h4>
@@ -145,7 +145,7 @@
                                             background-color: white; " />
                             </a>
                         </div>
-                        <div class='hi-card-cont'>
+                        <div >
                             <h4 style='text-align: center;'>
                             Bioinformatic Workshop 
                             </h4>
@@ -155,32 +155,6 @@
                                 </p>
                                 <div style='text-align: right;'>
                                     <a style='text-decoration:none;' target="blank" href="./news/2020_12_17_SnppletCourse.html">    
-                                            &ensp;Read More...
-                                    </a>   
-                                </div> 
-                            </div>                 
-                        </div>
-                    </div>
-                    <div class="hi-card" style="margin-bottom: 4%">
-                        <div class='hi-card-img'>
-                            <a href="./news/2020_11_11_OpenCenmig.html" target="blank">
-                                <img src="./news/pic/2020_11_11_OpenCenmig/allhonorables1(300x200).jpg" 
-                                     alt="" 
-                                     style="width: 100%; 
-                                            background-color: white; " />
-                            </a>
-                        </div>
-                        <div class='hi-card-cont'>
-                            <h4 style='text-align: center;'>
-                            CENMIG Opening Ceremony
-                            </h4>
-                            <div style='position:relative; bottom:10px'>
-                                <p style='font-size:12px; text-align:left;'>
-                                &ensp;&ensp;&ensp;The ceremony was held on 11.11.20 at faculy of science, Mahidol university.
-                                The ceremony began with... 
-                                </p>
-                                <div style='text-align: right;'>
-                                    <a style='text-decoration:none;' target="blank" href="./news/2020_11_11_OpenCenmig.html">    
                                             &ensp;Read More...
                                     </a>   
                                 </div> 
