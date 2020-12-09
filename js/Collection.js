@@ -27,7 +27,7 @@ function showSlides() {
     // run number to set slide
     slides[slideIndex - 1].style.display = "block";
     dots[slideIndex - 1].className += " vrActive";
-    setTimeout(showSlides, 3000); // Change image every 2 seconds
+    setTimeout(showSlides, 6000); // Change image every 2 seconds
 }
 
 
