@@ -519,9 +519,9 @@ body {
     padding: 1% 1% 0% 1%;
     text-align: center;
     background-color: #f1f1f1;
-    margin:1%;
+    margin:5%;
     width: 180px;
-    height: 310px;
+    height: 295px;
     font-size:10px;
 }
 
