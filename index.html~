@@ -49,7 +49,7 @@
                                 <li><a href="javascript:linkto('news')">NEWS</a></li>
                                 <li><a href="javascript:linkto('publictations')">PUBLICATIONS</a></li>
                                 <li><a href="javascript:linkto('res')">RESEARCHERS</a></li>
-                                <li><a href="javascript:linkto('contact')">Contact Us</a></li>
+                                <li><a href="javascript:linkto('contact')">CONTACT US</a></li>
                             </ul>
                         </div>
                     </div>
