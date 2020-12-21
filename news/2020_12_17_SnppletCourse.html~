@@ -157,30 +157,13 @@
     <div>
         <div id="header" class="grad_bar_head">
             <div class="logo-head">
-                <a href="./index_copy.html">
+                <a href="../index.html">
                     <img src="../pic/Logo/CENMIGlogo.png">
                 </a>
             </div>
         </div>
-        <div class="menu_panel">
-            <div id="menu_icon">
-                <img class="opt-menu" style="position: absolute;top: 115px;left: 4%;z-index: 11; cursor:pointer;" src="../pic/Icon/CenmigIconMenu4.png">
-                <div class="menu_list">
-                    <ul id="list" style="list-style-type:none" ;>
-                        <li><span class="toplevel uppercase"><a href="../index.html">Home</a></span></li>
-                        <li><span class="toplevel uppercase"><a href="../CenmigAboutUs.html">About us</a></span></li>
-                        <li><span class="toplevel uppercase"><a href="../CenmigResearchAreas.html">Research Areas</a></span></li>
-                        <li><span class="toplevel uppercase"><a href="../CenmigNews.html">News</a></span></li>
-                        <li><span class="toplevel uppercase"><a href="../CenmigResearcher.html">Researcher</a></span></li>
-                        <li><span class="toplevel uppercase"><a href="../CenmigFacilities.html">Facilities</a></span></li>
-                        <li><span class="toplevel uppercase"><a href="../CenmigPublication.html">Publications</a></span></li>
-                        <li><span class="toplevel uppercase"><a href="../CenmigContact.html">Contact</a></span></li>
-                    </ul>
-                </div>
-            </div>
-        </div>
         <div class="main-container">
-            <div class="container" style="width:100%; padding:0px; position:relative;"> <img style="width:100%;" class="img-banner-all" src="./pic/2020_11_11_OpenCenmig/honorablesOpenCenmig.jpg">
+            <div class="container" style="width:100%; padding:0px; position:relative;"> <img style="width:100%;" class="img-banner-all" src="./pic/2020_12_17_SnppletCourse/SnppletCourseHeader.jpg">
                 <div class="container" style="position: absolute;bottom: 0;color: #fff; left: 75px; text-align: right; top: 40%;">
                     <h4 style="color: #fff;font-size: 20px;font-weight: bold; letter-spacing: 2px !important;margin-bottom: 10px;"></h4>
                 </div>
@@ -205,11 +188,11 @@
                             <h2 style="text-align: center;"><b>วันพฤหัสบดีที่ 17 ธันวาคม พ.ศ. 2563 (บรรยาย-ปฏิบัติการ)</b></h2><br>
                             <table >
                                 <tr>
-                                    <th style="text-align: center;">Time</th>
+                                    <th style="text-align: center;width: 120px;">Time</th>
                                     <th style="text-align: center;">Program</th>
                                 </tr>
                                 <tr>
-                                    <td>08.30-09.00</td>
+                                    <td >08.30-09.00</td>
                                     <td>Registration</td>
                                 </tr>
                                 <tr>
@@ -218,11 +201,11 @@
                                 </tr>
                                 <tr>
                                     <td>09.10-10.00</td>
-                                    <td>Key note: The principle and practices of bacterial genotyping by WGS. โดย ศ.นพ.ประสิทธิ์ ผลิตผลการพิมพ์</td>
+                                    <td>Key note: The principle and practices of bacterial genotyping by WGS. โดย ศ.นพ.ประสิทธิ์ ผลิตผลการพิมพ์ <a href="./download/2020_12_17_SnppletCourse/The principle and practices of bacterial genotyping by WGS.pdf" target="_blank" style="color: blue;"> Document Download</a></td>
                                 </tr>
                                 <tr>
                                     <td>10.00-10.50</td>
-                                    <td>Talk 1: Whole genome sequencing services โดย ศ.เกียรติคุณ ดร. วสันต์ จันทราทิตย์</td>
+                                    <td>Talk 1: Whole genome sequencing services โดย ศ.เกียรติคุณ ดร. วสันต์ จันทราทิตย์ <a href="./download/2020_12_17_SnppletCourse/Whole genome sequencing services.pdf" target="_blank" style="color: blue;"> Document Download</a></td>
                                 </tr>
                                 <tr>
                                     <td>10.50-11.00</td>
@@ -230,7 +213,7 @@
                                 </tr>
                                 <tr>
                                     <td>11.00-12.00</td>
-                                    <td>Talk 2: Overview of Genomics โดย ดร. ภากร เอื้ยวสกุล</td>
+                                    <td>Talk 2: Overview of Genomics โดย ดร. ภากร เอื้ยวสกุล <a href="./download/2020_12_17_SnppletCourse/Overview of Genomics.pdf" target="_blank" style="color: blue;"> Document Download</a></td>
                                 </tr>
                                 <tr>
                                     <td>12.00-13.00</td>
@@ -238,7 +221,7 @@
                                 </tr>
                                 <tr>
                                     <td>13.00-14.00</td>
-                                    <td>Talk 3: Pathogen discovery and identification โดย นาย ยุทธพงษ์ ถาวรวัฒนะ</td>
+                                    <td>Talk 3: Pathogen discovery and identification by using SNP barcodes โดย นาย ยุทธพงษ์ ถาวรวัฒนะ <a href="./download/2020_12_17_SnppletCourse/Pathogen discovery and identification by using SNP barcodes.pdf" target="_blank" style="color: blue;"> Document Download</a></td>
                                 </tr>
                                 <tr>
                                     <td>14.00-14.15</td>
@@ -246,18 +229,18 @@
                                 </tr>
                                 <tr>
                                     <td>14.15-16.00</td>
-                                    <td>Lab 1: SNP calling from FASTQ files <br> Q&A กับ ศ.นพ.ประสิทธิ์ ผลิตผลการพิมพ์</td>
+                                    <td>Lab 1: SNP calling from FASTQ files <br> Q&A กับ ศ.นพ.ประสิทธิ์ ผลิตผลการพิมพ์ และ ศ.เกียรติคุณ ดร. วสันต์ จันทราทิตย์</td>
                                 </tr>
                             </table>
                             <h2 style="text-align: center;margin-top: 4%"><b>วันศุกร์ที่ 18 ธันวาคม พ.ศ. 2563 (ปฏิบัติการ)</b></h2><br>
                             <table >
                                 <tr>
-                                    <th style="text-align: center;">Time</th>
+                                    <th style="text-align: center;width: 120px;">Time</th>
                                     <th style="text-align: center;">Program</th>
                                 </tr>
                                 <tr>
                                     <td>9.30-10.30</td>
-                                    <td>Talk 4: Overview of phylogenetics and systematics โดย ดร. ภากร เอี้ยวสกุล</td>
+                                    <td>Talk 4: Overview of phylogenetics and systematics โดย ดร. ภากร เอี้ยวสกุล <a href="./download/2020_12_17_SnppletCourse/Overview of phylogenetics and systematics.pdf" target="_blank" style="color: blue;"> Document Download</a></td>
                                 </tr>
                                 <tr>
                                     <td>10.30-10.45</td>
@@ -273,7 +256,7 @@
                                 </tr>
                                 <tr>
                                     <td>13.00-13.30</td>
-                                    <td>Talk 5: Ancestral reconstruction โดย ดร. ภากร เอี้ยวสกุล</td>
+                                    <td>Talk 5: Ancestral reconstruction โดย ดร. ภากร เอี้ยวสกุล <a href="./download/2020_12_17_SnppletCourse/Ancestral reconstruction.pdf" target="_blank" style="color: blue;"> Document Download</a></td>
                                 </tr>
                                 <tr>
                                     <td>13.30-14.30</td>

@@ -22,7 +22,7 @@
     background-color: silver;
     margin:auto;
     height:10px;
-    width:65%;
+    width:80%;
    
     
 }
@@ -519,7 +519,7 @@ body {
     padding: 1% 1% 0% 1%;
     text-align: center;
     background-color: #f1f1f1;
-    margin:5%;
+    margin:1%;
     width: 180px;
     height: 295px;
     font-size:10px;
